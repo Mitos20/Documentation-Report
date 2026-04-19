@@ -110,7 +110,7 @@ Hemos observado que los agricultores no están cumpliendo sus objetivos de produ
 
 #### 1.2.2.2. Lean UX Assumptions
 
-**1. User Assumptions**
+1. **User Assumptions**
 
     - Creemos que el agricultor toma decisiones de riego y fertilización basadas en observación visual o rutina fija, sin datos objetivos del suelo.
 
@@ -120,7 +120,7 @@ Hemos observado que los agricultores no están cumpliendo sus objetivos de produ
 
     - Creemos que el ingeniero agrónomo desconfía de los datos IoT cuando no puede verificar su origen, lo que frena su recomendación de herramientas digitales a sus clientes.
 
-**2. Business Assumptions**
+2. **Business Assumptions**
 
     - Creemos que existe un segmento de agricultores independientes en Perú (1-20 ha) con cultivos de alto valor que tienen capacidad de pago para soluciones tecnológicas.
 
@@ -130,7 +130,7 @@ Hemos observado que los agricultores no están cumpliendo sus objetivos de produ
 
     - Creemos que los agricultores confían más en soluciones con soporte local en español que en plataformas globales sin representación local.
 
-**3. Business Outcomes**
+3. **Business Outcomes**
 
     - Creemos que alcanzaremos una tasa de conversión del 25-35% tras el piloto gratuito de 30 días.
 
@@ -140,7 +140,7 @@ Hemos observado que los agricultores no están cumpliendo sus objetivos de produ
 
     - Creemos que las actualizaciones OTA reducirán los costos de mantenimiento en campo en al menos un 30%.
     
-**4. User Outcomes & Benefits**
+4. **User Outcomes & Benefits**
 
     - Creemos que el agricultor reducirá su consumo de agua al regar únicamente cuando los sensores indiquen estrés hídrico real.
 
@@ -150,7 +150,7 @@ Hemos observado que los agricultores no están cumpliendo sus objetivos de produ
 
     - Creemos que el agricultor experimentará menor ansiedad por seguridad al recibir alertas clasificadas y priorizadas.
     
-**5. Feature Assumptions**
+5. **Feature Assumptions**
 
     - Creemos que el sistema de riego automático activará la electroválvula de forma fiable cuando los sensores indiquen estrés hídrico, con latencia menor a 2 segundos.
 
@@ -159,6 +159,28 @@ Hemos observado que los agricultores no están cumpliendo sus objetivos de produ
     - Creemos que el procesamiento de datos del suelo (humedad, EC, temperatura, pH) producirá un diagnóstico agronómico preciso y accionable en tiempo real.
 
     - Creemos que el monitoreo del cultivo con sensor de movimiento clasificará eventos perimetrales (persona, animal, viento) con precisión suficiente para reducir falsas alarmas.
-    
+
     - Creemos que las notificaciones vía WhatsApp y push priorizarán los canales según la criticidad del evento, garantizando que el agricultor reciba la alerta correcta en el momento correcto.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+*Hypothesis 1 — Riego automático*
+
+* Creemos que la reducción del consumo de agua por ciclo de cultivo será alcanzada si el agricultor con parcelas de 1-20 ha en la costa peruana obtiene activación automática del riego basada en datos reales del suelo con el sistema de riego automático controlado por sensores de humedad y conductividad eléctrica.
+
+*Hypothesis 2 — Fertilización automática*
+
+* Creemos que el cambio en las rutinas de fertilización basadas en intuición será alcanzado si el agricultor con baja alfabetización técnica obtiene recomendaciones claras de ajuste de pH y salinidad en lenguaje simple con el módulo de diagnóstico de fertilización del sistema.
+
+*Hypothesis 3 — Procesamiento de datos del suelo*
+
+* Creemos que la confianza del ingeniero agrónomo en los datos IoT será alcanzada si el agrónomo que asesora múltiples parcelas obtiene acceso remoto a historial verificable de lecturas del suelo con el módulo de procesamiento y visualización de datos agronómicos.
+
+*Hypothesis 4 — Monitoreo del cultivo y seguridad perimetral*
+
+* Creemos que la reducción de falsas alarmas de seguridad será alcanzada si el agricultor con terrenos en zonas de riesgo obtiene clasificación automática de eventos perimetrales (persona, animal, viento) con el sensor de movimiento y el algoritmo de clasificación térmica.
+
+*Hypothesis 5 — Notificaciones*
+
+* Creemos que la respuesta oportuna ante eventos críticos del cultivo y del perímetro será alcanzada si el agricultor que no puede estar físicamente en el campo obtiene alertas priorizadas por canal según criticidad con el sistema de notificaciones multicanal (WhatsApp, push, SMS).
 
