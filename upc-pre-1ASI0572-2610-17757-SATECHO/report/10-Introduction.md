@@ -184,3 +184,7 @@ Hemos observado que los agricultores no están cumpliendo sus objetivos de produ
 
 * Creemos que la respuesta oportuna ante eventos críticos del cultivo y del perímetro será alcanzada si el agricultor que no puede estar físicamente en el campo obtiene alertas priorizadas por canal según criticidad con el sistema de notificaciones multicanal (WhatsApp, push, SMS).
 
+#### 1.2.2.4. Lean UX Canvas
+
+A continuación, mostraremos el análisis de los procesos iterativos y descubrimientos realizados por los miembros del equipo SATECHO para asentar las bases de valor propuesta dentro de la solución; centrándonos en solventar las problemáticas críticas y sobre todo maximizar el beneficio percibido por el cliente.
+
