@@ -95,3 +95,70 @@ Esta percepción diagnóstica se ve respaldada por datos locales alarmantes que 
 Sin embargo, el problema identificado trasciende lo agronómico para convertirse en una crisis de seguridad patrimonial y humana. Al aplicar nuestra técnica de análisis, se detectó que el agricultor se encuentra en un estado de desprotección total frente a la delincuencia organizada. Datos de **Infobae (2026)** indican que la extorsión ya alcanza al 25% de los peruanos, expandiéndose agresivamente hacia las zonas rurales. La frecuencia de estos delitos es sobrecogedora: se registra una denuncia por extorsión cada 19 minutos en el país (**El Comercio, 2025**), y las proyecciones de víctimas mortales por sicariato y extorsión superan las 1,900 personas anualmente (**PQS, 2024**). Esta realidad convierte a los campos de cultivo en escenarios vulnerables donde el robo de insumos y la coacción criminal ocurren en la oscuridad, lejos de cualquier sistema de alerta inmediata.
 
 Es por ello que dichos hallazgos revelan que la problemática de SATECHO quiere solventar va arraigado a la ineficiencia hídrica y la falta de datos técnicos que generan pérdidas de entre el 15% y 30% de la producción total. Por otro lado, la inseguridad ciudadana amenaza la continuidad misma de la actividad agrícola.
+
+### 1.2.2. Lean UX Process
+
+En esta sección, detallamos nuestra metodología de trabajo para SATECHO. A través de un enfoque ágil y colaborativo, transformamos nuestras ideas y suposiciones en soluciones reales para el sector agrícola. Este proceso nos permite alinear los objetivos del negocio con las necesidades del agricultor y el ingeniero agrónomo, garantizando que nuestra tecnología de riego inteligente y seguridad sea, ante todo, útil, intuitiva y capaz de generar un valor real en la protección y optimización de cada cultivo.
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+Nuestro servicio ofrece a los agricultores independientes y pequeños una plataforma de monitoreo agronómico que les permite gestionar el estado de sus cultivos y tomar decisiones oportunas sobre riego y fertilización para maximizar el rendimiento y reducir pérdidas. 
+
+Hemos observado que los agricultores no están cumpliendo sus objetivos de productividad y eficiencia en el uso de recursos, dado que las decisiones sobre cuándo y cuánto regar o fertilizar se toman en base a observación visual y rutinas fijas, sin datos objetivos sobre el estado real del suelo. Esto genera pérdidas en los cultivos, desperdicio de agua y fertilizantes, y costos innecesarios que afectan la viabilidad económica de los agricultores independientes y pequeños en Perú.
+
+**¿Cómo podríamos mejorar el acceso a información objetiva y oportuna sobre el estado del suelo para que los agricultores puedan tomar decisiones de riego y fertilización basadas en datos reales, reduciendo pérdidas y optimizando el uso de sus recursos?**
+
+#### 1.2.2.2. Lean UX Assumptions
+
+**1. User Assumptions**
+
+    - Creemos que el agricultor toma decisiones de riego y fertilización basadas en observación visual o rutina fija, sin datos objetivos del suelo.
+
+    - Creemos que el agricultor percibe el desperdicio de agua y fertilizantes como un problema económico real y está dispuesto a cambiar sus rutinas si recibe datos claros y accionables.
+
+    - Creemos que el agricultor tiene conocimientos básicos de tecnología móvil y puede usar la app sin formación técnica previa.
+
+    - Creemos que el ingeniero agrónomo desconfía de los datos IoT cuando no puede verificar su origen, lo que frena su recomendación de herramientas digitales a sus clientes.
+
+**2. Business Assumptions**
+
+    - Creemos que existe un segmento de agricultores independientes en Perú (1-20 ha) con cultivos de alto valor que tienen capacidad de pago para soluciones tecnológicas.
+
+    - Creemos que un modelo híbrido (hardware + suscripción mensual) es aceptado cultural y financieramente por el agricultor peruano.
+
+    - Creemos que la combinación de monitoreo agronómico con seguridad perimetral inteligente no está siendo ofrecida por competidores locales en Perú.
+
+    - Creemos que los agricultores confían más en soluciones con soporte local en español que en plataformas globales sin representación local.
+
+**3. Business Outcomes**
+
+    - Creemos que alcanzaremos una tasa de conversión del 25-35% tras el piloto gratuito de 30 días.
+
+    - Creemos que la retención anual superará el 70% gracias al modelo de pago estacional y soporte técnico local.
+
+    - Creemos que la integración de seguridad como valor agregado incrementará el ticket promedio en un 15-20% frente a soluciones puramente agronómicas.
+
+    - Creemos que las actualizaciones OTA reducirán los costos de mantenimiento en campo en al menos un 30%.
+    
+**4. User Outcomes & Benefits**
+
+    - Creemos que el agricultor reducirá su consumo de agua al regar únicamente cuando los sensores indiquen estrés hídrico real.
+
+    - Creemos que el agricultor detectará y corregirá problemas de salinidad antes de que afecten el rendimiento del cultivo.
+
+    - Creemos que el agricultor ahorrará tiempo al automatizar decisiones de riego que antes requerían inspección visual en campo.
+
+    - Creemos que el agricultor experimentará menor ansiedad por seguridad al recibir alertas clasificadas y priorizadas.
+    
+**5. Feature Assumptions**
+
+    - Creemos que el sistema de riego automático activará la electroválvula de forma fiable cuando los sensores indiquen estrés hídrico, con latencia menor a 2 segundos.
+
+    - Creemos que el sistema de fertilización automática generará recomendaciones de pH y conductividad eléctrica en lenguaje no técnico comprensible para el agricultor.
+
+    - Creemos que el procesamiento de datos del suelo (humedad, EC, temperatura, pH) producirá un diagnóstico agronómico preciso y accionable en tiempo real.
+
+    - Creemos que el monitoreo del cultivo con sensor de movimiento clasificará eventos perimetrales (persona, animal, viento) con precisión suficiente para reducir falsas alarmas.
+    
+    - Creemos que las notificaciones vía WhatsApp y push priorizarán los canales según la criticidad del evento, garantizando que el agricultor reciba la alerta correcta en el momento correcto.
+
