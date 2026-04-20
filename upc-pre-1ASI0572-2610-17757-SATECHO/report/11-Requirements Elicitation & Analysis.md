@@ -270,3 +270,18 @@ La convergencia entre los hallazgos obtenidos en las entrevistas de campo y las 
 ### User Persona 2: Ingeniero Agrónomo
 
 ![User-Persona-Agricultor](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-persona-ingeniero-agronomo.jpeg)
+
+### 2.3.2. User Task Matrix
+
+A través del **User Task Matrix**, se desglosan las tareas clave que nuestros User Personas realizan de forma cotidiana y autónoma, independientemente de la futura implementación de soluciones de software. Este análisis busca evaluar la frecuencia e importancia que tiene cada usuario por responsabilidad, ofreciendo una visión clarividente de sus interacciones.
+
+| **Tarea**                                                                                         | **Danilo Subasto**<br> Agricultor independiente | **Danilo Subasto**<br> Agricultor independiente | **Nestor Campo**<br> Ing. agrónomo | **Nestor Campo**<br> Ing. agrónomo |
+| ------------------------------------------------------------------------------------------------- | :---------------------------------------------: | :---------------------------------------------: |:----------------------------------:|:----------------------------------:|
+|                                                                                                   |                 **Frecuencia**                  |                 **Importancia**                 |           **Frecuencia**           |          **Importancia**           |
+| **Evaluar humedad del suelo** <br>Decidir si el cultivo necesita riego                            |                     Siempre                     |                      Alta                       |              A menudo              |                Alta                |
+| **Verificar estado fenológico del cultivo**<br>Observar síntomas visuales de estrés o daño        |                     Siempre                     |                      Alta                       |              A menudo              |                Alta                |
+| **Registrar datos del suelo o cultivo**<br>Apuntar observaciones para seguimiento                 |                     A veces                     |                      Media                      |              Siempre               |                Alta                |
+| **Detectar acumulación de sales (EC) en suelo**<br>Identificar salinización antes de daño visible |                    Rara vez                     |                      Media                      |              A menudo              |                Alta                |
+| **Decidir cuándo y cuánto regar**<br>Definir momento y duración del riego                         |                     Siempre                     |                      Alta                       |              A menudo              |                Alta                |
+| **Activar o detener el riego manualmente**<br>Operar válvulas o llaves del sistema                |                     Siempre                     |                      Alta                       |              Rara vez              |                Baja                |
+| **Elaborar plan de riego y fertilización**<br>Establecer cronograma de insumos por ciclo          |                    Rara vez                     |                      Media                      |              A menudo              |                Alta                |
