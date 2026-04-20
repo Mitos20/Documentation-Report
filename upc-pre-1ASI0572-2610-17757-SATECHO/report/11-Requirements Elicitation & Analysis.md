@@ -309,3 +309,19 @@ Es aquí donde profundizaremos las dimensiones psicológicas de nuestros segment
 ### User Empathy Map: Ingeniero Agrónomo
 
 ![User-Empathy-Map-Ingeniero-Agronomo](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-empathy-map-ingeniero-agronomo.jpeg)
+
+## 2.4. Big Picture EventStorming
+
+Para construir una herramienta que responda con precisión a las necesidades del agricultor e ingeniero agrónomo, el equipo de **SATECHO** ha realizado un ejercicio de mapeo visual integral. El objetivo de esta sección es mostrar la *Big Picture* de nuestro ecosistema, permitiendo que cualquier lector comprenda el flujo de trabajo.
+
+Este análisis se dividió en tres etapas fundamentales:
+
+1. **Fase de Apertura (Open):** En este primer momento, el equipo volcó todas las situaciones y eventos que ocurren en el día a día del campo, como el inicio de un riego, la detección de un movimiento sospechoso o la variación del **pH** del suelo -capturando la realidad compleja en el sector agronómico.
+![Big-Picture-Open](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/big-picture-eventstorming/big-picture-eventstorming-open.png)
+2. **Fase de Exploración (Explore):** Organizamos esos eventos para identificar las "zonas de dolor", explorando cómo se conectan los problemas de inseguridad con la falta de datos técnicos.
+![Big-Picture-Explore](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/big-picture-eventstorming/big-picture-eventstorming-explore.png)
+3. **Fase de Cierre y Valor (Close/Plus):** Finalmente, refinamos el análisis para centrarnos en lo que genera valor real. Es en esta etapa donde definimos las reglas que permiten a **SATECHO** ser una solución intuitiva y efectiva, asegurando que cada nota adhesiva que verán a continuación represente una funcionalidad diseñada para proteger el patrimonio y optimizar el recurso hídrico.
+![Big-Picture-Close](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/big-picture-eventstorming/big-picture-eventstorming-close.png)
+
+Sin más detalles, se presenta el diagrama resultantes de este proceso:
+![Big-Picture-Complete](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/big-picture-eventstorming/big-picture-eventstorming.png)
