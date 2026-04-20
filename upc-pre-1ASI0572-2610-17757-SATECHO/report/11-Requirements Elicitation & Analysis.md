@@ -269,7 +269,7 @@ La convergencia entre los hallazgos obtenidos en las entrevistas de campo y las 
 
 ### User Persona 2: Ingeniero Agrónomo
 
-![User-Persona-Agricultor](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-persona-ingeniero-agronomo.jpeg)
+![User-Persona-Ingeniero-Agronomo](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-persona-ingeniero-agronomo.jpeg)
 
 ### 2.3.2. User Task Matrix
 
@@ -285,3 +285,15 @@ A través del **User Task Matrix**, se desglosan las tareas clave que nuestros U
 | **Decidir cuándo y cuánto regar**<br>Definir momento y duración del riego                         |                     Siempre                     |                      Alta                       |              A menudo              |                Alta                |
 | **Activar o detener el riego manualmente**<br>Operar válvulas o llaves del sistema                |                     Siempre                     |                      Alta                       |              Rara vez              |                Baja                |
 | **Elaborar plan de riego y fertilización**<br>Establecer cronograma de insumos por ciclo          |                    Rara vez                     |                      Media                      |              A menudo              |                Alta                |
+
+### 2.3.3. User Journey Mapping
+
+En esta sección, se determina la trayectoria de los usuarios desde que enfrentan un desafío en sus cultivos hasta alcanzar una resolución efectiva. Adicionalmente, se determinan los puntos de fricción y las cumbres de satisfacción en sus rutinas diarias, identificando los momentos críticos donde la intervención tecnológica se vuelve indispensable.
+
+### User Journey Mapping: Agricultor Tradicional
+
+![User-Journey-Mapping-Agricultor](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-journey-mapping-agricultor.jpeg)
+
+### User Journey Mapping: Ingeniero Agrónomo
+
+![User-Journey-Mapping-Ingeniero-Agronomo](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-journey-mapping-ingeniero-agronomo.jpeg)
