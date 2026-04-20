@@ -188,3 +188,24 @@ Hemos observado que los agricultores no están cumpliendo sus objetivos de produ
 
 A continuación, mostraremos el análisis de los procesos iterativos y descubrimientos realizados por los miembros del equipo SATECHO para asentar las bases de valor propuesta dentro de la solución; centrándonos en solventar las problemáticas críticas y sobre todo maximizar el beneficio percibido por el cliente.
 
+![Lean Canvas UX - SATECHO](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/Lean-UX-Canvas-SATECHO.jpg)
+
+## Segmentos objetivos
+
+En esta última sección, conoceremos los criterios que SATECHO consideró en la selección de nuestros segmentos objetivos de acuerdo a su relevancia en el dominio sobre la hidratación y protección del ciclo de vida de la planta. A continuación, se describirá cada uno de los segmentos junto con sus características tales como descripción, características demográficas e información estadística que justifiquen su inclusión en el mercado objetivo.
+
+1. **Agricultor independiente / pequeño productor**
+
+    * **Descripción:** Este segmento está conformado por propietarios o administradores directos de parcelas de 1 a 20 hectáreas ubicadas en la costa o sierra peruana, dedicados principalmente a cultivos de alto valor como arándanos, paltas Hass y sandías. Son tomadores de decisiones operativas diarias en riego, fertilización y vigilancia, con un enfoque práctico orientado a la rentabilidad más que a la tecnicidad.
+ 
+    * **Características demográficas:** Este perfil corresponde mayoritariamente a personas entre 35 y 60 años, con nivel educativo de secundaria completa o estudios técnicos, y una alfabetización digital funcional para tareas cotidianas. Aunque el liderazgo de unidades agropecuarias sigue siendo predominantemente masculino, la participación femenina ha venido creciendo. Manejan parcelas pequeñas (1-20 ha), toman decisiones de forma autónoma o con apoyo de 1-2 trabajadores de confianza, y utilizan dispositivos Android como principal interfaz tecnológica.
+ 
+    * **Información estadística:** En Perú, el 81.1% de las unidades agropecuarias tiene menos de 5 hectáreas, lo que representa más de 1.8 millones de productores, confirmando que la pequeña escala es estructural en el sector (Instituto Nacional de Estadística e Informática [INEI], 2012). La agricultura familiar constituye el 97.6% del total de unidades agropecuarias del país y es responsable del 70% del consumo interno de alimentos (INEI, 2022). En cuanto a conectividad, el 84.8% de los hogares rurales posee al menos un smartphone, un incremento significativo frente al 44.1% registrado en 2019 (Organismo Supervisor de Inversión Privada en Telecomunicaciones [OSIPTEL], 2024). Respecto a los cultivos objetivo, Perú cuenta con 23,344 hectáreas certificadas de arándanos para exportación, con proyección de alcanzar 26,786 ha en la campaña 2025-2026 (Ministerio de Desarrollo Agrario y Riego [MIDAGRI], 2025), y el 97% de la producción de palta Hass proviene de agricultores con menos de 5 hectáreas (ProHass, 2023), lo que valida el enfoque en pequeños productores de alto valor.
+
+2. **Ingeniero agrónomo / asesor técnico independiente**
+
+    * **Descripción:** Este segmento incluye a profesionales con formación en agronomía, entre 28 y 45 años, que asesoran a múltiples agricultores de forma independiente o mediante cooperativas y empresas agropecuarias. Actúan como influenciadores técnicos: validan, configuran y recomiendan soluciones tecnológicas a sus clientes, amplificando el impacto de cualquier herramienta que adopten.
+
+    * **Características demográficas:** Este perfil profesional suele contar con formación universitaria o de posgrado en agronomía, ciencias agrícolas o afines, y se encuentra en una etapa de consolidación laboral. Trabajan en modalidad independiente o vinculados a instituciones, gestionando entre 5 y 20 clientes simultáneamente. Poseen alta alfabetización digital: utilizan herramientas de análisis, hojas de cálculo y plataformas especializadas como parte de su rutina.
+
+    * **Información estadística:** Solo el 1% de los productores de agricultura familiar en Perú recibe asistencia técnica formal, lo que evidencia una brecha crítica en la transferencia de conocimiento y validación tecnológica (INEI, 2022). Esta baja cobertura genera una oportunidad estratégica para herramientas que permitan a los asesores escalar su impacto sin incrementar la carga de visitas presenciales. Asimismo, el acceso a información agraria oportuna y confiable sigue siendo un cuello de botella para la toma de decisiones técnicas en el sector (MIDAGRI, 2023), lo que refuerza la necesidad de plataformas que centralicen y contextualicen datos de suelo, clima y cultivo. Considerando que un ingeniero agrónomo puede influir en la adopción tecnológica de 10 a 20 agricultores, este segmento actúa como multiplicador clave para la expansión de soluciones IoT en la agricultura familiar peruana.
