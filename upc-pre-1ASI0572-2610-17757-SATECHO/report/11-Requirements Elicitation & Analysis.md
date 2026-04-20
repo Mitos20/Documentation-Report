@@ -158,3 +158,99 @@ En este capítulo se examina el panorama competitivo para identificar las brecha
 | Expansión de arándanos/paltas | Especialización vertical por cultivo | "Kits por cultivo": configuración pre-optimizada para arándanos, paltas o sandías (umbrales pre-cargados) |
 | Resistencia al cambio de agricultores tradicionales | Demostración de valor rápida y tangible | Garantía "Ahorro o te devolvemos": si no ahorras agua en el primer ciclo, devolución del 100% |
 | Importación de sensores más baratos | Valor agregado más allá del hardware | Mensaje: "No vendemos sensores · Vendemos tranquilidad + ahorro + datos" |
+
+## 2.2. Entrevistas
+
+**¿Cómo transformar la experiencia empírica del campo en una solución tecnológica infalible?**
+
+En esta sección, analizaremos las visiones directas de quienes enfrentan la crisis agraria y de seguridad a diario. Mediante un diálogo estratégico con agricultores e ingenieros agrónomos, se recolectará aquellos hallazgos críticos que permiten a **SATECHO** actuar no solo como una herramienta, sino como una respuesta exacta a las expectativas reales del sector. Este proceso de descubrimiento asegura que cada decisión de diseño esté cimentada en la realidad operativa y humana del entorno rural, convirtiendo la voz del usuario en el motor de innovación de la propuesta.
+
+### 2.2.1. Diseño de entrevistas
+
+### Preguntas para agricultores:
+
+*Bloque 1: Contexto y perfil (información demográfica para el arquetipo)*
+
+- ¿Qué tipo de cultivo maneja y en qué región está su terreno?
+- ¿Cuántas hectáreas tiene aproximadamente?
+- ¿Trabaja el terreno usted solo o tiene personal de apoyo?
+- ¿Cuántos días a la semana está físicamente en el campo?
+- ¿Tiene acceso a internet o señal de datos en su terreno?
+- ¿Qué dispositivo usa más en su día a día, celular o computadora?
+
+*Bloque 2: Proceso de decisión actual (el más importante)*
+
+- ¿Cómo decide cuándo es momento de regar su cultivo?
+- ¿Qué señales busca en el suelo o en la planta para tomar esa decisión?
+- ¿Tiene un horario fijo de riego o varía según lo que observa?
+- ¿Alguna vez ha regado y el cultivo igual se deterioró? ¿Qué pasó?
+- ¿Cómo decide cuándo y cuánto fertilizante aplicar?
+- ¿Consulta a alguien antes de tomar estas decisiones o las toma solo?
+- ¿Ha recibido alguna vez asistencia técnica de un agrónomo? ¿Con qué frecuencia?
+
+*Bloque 3: Problemas y pérdidas (pain points)*
+
+- ¿Cuál ha sido la pérdida más grande que ha tenido en un cultivo? ¿Qué la causó?
+- ¿Ha tenido problemas con cultivos que no se recuperaban aunque los regara? ¿Cómo lo resolvió?
+- ¿Ha notado que su suelo a veces parece tener sal o minerales acumulados? ¿Cómo lo supo?
+- ¿Qué es lo más difícil de manejar en su cultivo día a día?
+- ¿Cuánto estima que pierde en un ciclo de cosecha cuando algo sale mal?
+
+*Bloque 4: Relación con tecnología (para validar adoption)*
+
+- ¿Usa alguna herramienta o aplicación para gestionar su trabajo en el campo actualmente?
+- ¿Ha intentado usar alguna tecnología para su cultivo antes? ¿Cómo fue esa experiencia?
+- ¿Qué tan cómodo se siente usando aplicaciones nuevas en su celular?
+- Si alguien le mostrara información sobre el estado de su suelo en una pantalla, ¿confiaría en esa información para tomar decisiones? ¿Por qué sí o por qué no?
+- ¿Preferiría recibir una recomendación directa ("riegue hoy") o prefiere ver los datos y decidir usted mismo?
+
+*Bloque 5: Seguridad del terreno (para el valor agregado)*
+
+- ¿Ha tenido problemas con personas ajenas ingresando a su terreno?
+- ¿Cómo protege actualmente su terreno cuando no está presente?
+- ¿Qué tan frecuente es este problema en su zona?
+  
+*Bloque 6: Disposición y modelo de negocio (para validar viabilidad comercial)*
+
+- ¿Cuánto gasta actualmente en riego y fertilización por ciclo?
+- ¿Estaría dispuesto a pagar mensualmente por un servicio que le ayude a optimizar esas decisiones? ¿Cuánto consideraría razonable?
+- ¿Qué tendría que demostrarle un sistema para que lo adoptara en su trabajo?
+
+### Preguntas para ingenieros agrónomos:
+
+*Bloque 1: Contexto profesional*
+
+- ¿A cuántos agricultores asesora actualmente?
+- ¿Trabaja de forma independiente o para una institución o cooperativa?
+- ¿Con qué frecuencia visita físicamente los terrenos de sus clientes?
+- ¿Qué tipo de cultivos son los más comunes entre sus clientes?
+
+*Bloque 2: Proceso de asesoría actual*
+
+- ¿Cómo recopila información sobre el estado del suelo de sus clientes hoy en día?
+- ¿Qué herramientas o métodos usa para analizar la condición del suelo antes de hacer una recomendación?
+- ¿Con qué frecuencia sus clientes le reportan problemas que ya tienen síntomas visibles en la planta?
+- ¿Qué tan común es encontrar problemas de acumulación de sales en los suelos que asesora?
+- ¿Cómo identifica actualmente si un suelo tiene bloqueo salino versus simplemente falta de agua?
+
+*Bloque 3: Pain points del proceso*
+
+- ¿Cuál es el error más frecuente que cometen los agricultores en sus decisiones de riego o fertilización?
+- ¿Ha tenido casos donde el agricultor regó o fertilizó en exceso porque no tenía datos del suelo? ¿Qué consecuencias tuvo?
+- ¿Qué información le falta frecuentemente para dar una recomendación más precisa sin necesidad de estar físicamente en el campo?
+- ¿Qué tan difícil es que sus clientes sigan sus recomendaciones? ¿Por qué cree que ocurre eso?
+
+*Bloque 4: Validación técnica de la solución (aquí sí puedes ser más específico porque el agrónomo es co-creador, no solo usuario)*
+
+- ¿Qué parámetros del suelo considera indispensables medir para tomar decisiones de riego confiables?
+- ¿A qué valores de conductividad eléctrica consideraría que hay un bloqueo salino que requiere intervención, según el tipo de cultivo más común en la región?
+- ¿Qué tan confiables considera los sensores de humedad y conductividad eléctrica de bajo costo actualmente disponibles en el mercado?
+- ¿Qué información adicional necesitaría un sistema automático para generar recomendaciones agronómicas confiables?
+- ¿Estaría dispuesto a colaborar en la calibración de umbrales por tipo de cultivo para un sistema de este tipo?
+
+*Bloque 5: Adopción y modelo de negocio*
+
+- ¿Recomendaría activamente una herramienta de monitoreo de suelos a sus clientes si existiera? ¿Bajo qué condiciones?
+- ¿Cree que sus clientes agricultores adoptarían un sistema basado en datos del suelo para tomar decisiones? ¿Qué los frenaría?
+- ¿Le resultaría útil tener acceso remoto al historial de datos del suelo de varios clientes desde una sola plataforma?
+- ¿Qué validación o certificación necesitaría ver en un sistema para recomendarlo con confianza profesional?
