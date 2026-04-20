@@ -254,3 +254,19 @@ En esta sección, analizaremos las visiones directas de quienes enfrentan la cri
 - ¿Cree que sus clientes agricultores adoptarían un sistema basado en datos del suelo para tomar decisiones? ¿Qué los frenaría?
 - ¿Le resultaría útil tener acceso remoto al historial de datos del suelo de varios clientes desde una sola plataforma?
 - ¿Qué validación o certificación necesitaría ver en un sistema para recomendarlo con confianza profesional?
+
+
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+La convergencia entre los hallazgos obtenidos en las entrevistas de campo y las brechas detectadas en el mercado actual permite trascender las cifras para dar rostro a los verdaderos protagonistas del entorno rural. En este apartado, las preocupaciones por la seguridad y la búsqueda de eficiencia hídrica dejan de ser conceptos abstractos y se materializan en perfiles humanos que dictan el propósito de cada funcionalidad de AgroSafe.
+
+### User Persona 1: Agricultor Tradicional
+
+![User-Persona-Agricultor](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-persona-agricultor.jpeg)
+
+### User Persona 2: Ingeniero Agrónomo
+
+![User-Persona-Agricultor](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-persona-ingeniero-agronomo.jpeg)
