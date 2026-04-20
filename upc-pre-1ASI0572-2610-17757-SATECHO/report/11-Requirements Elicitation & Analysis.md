@@ -254,3 +254,58 @@ En esta sección, analizaremos las visiones directas de quienes enfrentan la cri
 - ¿Cree que sus clientes agricultores adoptarían un sistema basado en datos del suelo para tomar decisiones? ¿Qué los frenaría?
 - ¿Le resultaría útil tener acceso remoto al historial de datos del suelo de varios clientes desde una sola plataforma?
 - ¿Qué validación o certificación necesitaría ver en un sistema para recomendarlo con confianza profesional?
+
+
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+La convergencia entre los hallazgos obtenidos en las entrevistas de campo y las brechas detectadas en el mercado actual permite trascender las cifras para dar rostro a los verdaderos protagonistas del entorno rural. En este apartado, las preocupaciones por la seguridad y la búsqueda de eficiencia hídrica dejan de ser conceptos abstractos y se materializan en perfiles humanos que dictan el propósito de cada funcionalidad de AgroSafe.
+
+### User Persona 1: Agricultor Tradicional
+
+![User-Persona-Agricultor](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-persona-agricultor.jpeg)
+
+### User Persona 2: Ingeniero Agrónomo
+
+![User-Persona-Ingeniero-Agronomo](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-persona-ingeniero-agronomo.jpeg)
+
+### 2.3.2. User Task Matrix
+
+A través del **User Task Matrix**, se desglosan las tareas clave que nuestros User Personas realizan de forma cotidiana y autónoma, independientemente de la futura implementación de soluciones de software. Este análisis busca evaluar la frecuencia e importancia que tiene cada usuario por responsabilidad, ofreciendo una visión clarividente de sus interacciones.
+
+| **Tarea**                                                                                         | **Danilo Subasto**<br> Agricultor independiente | **Danilo Subasto**<br> Agricultor independiente | **Nestor Campo**<br> Ing. agrónomo | **Nestor Campo**<br> Ing. agrónomo |
+| ------------------------------------------------------------------------------------------------- | :---------------------------------------------: | :---------------------------------------------: |:----------------------------------:|:----------------------------------:|
+|                                                                                                   |                 **Frecuencia**                  |                 **Importancia**                 |           **Frecuencia**           |          **Importancia**           |
+| **Evaluar humedad del suelo** <br>Decidir si el cultivo necesita riego                            |                     Siempre                     |                      Alta                       |              A menudo              |                Alta                |
+| **Verificar estado fenológico del cultivo**<br>Observar síntomas visuales de estrés o daño        |                     Siempre                     |                      Alta                       |              A menudo              |                Alta                |
+| **Registrar datos del suelo o cultivo**<br>Apuntar observaciones para seguimiento                 |                     A veces                     |                      Media                      |              Siempre               |                Alta                |
+| **Detectar acumulación de sales (EC) en suelo**<br>Identificar salinización antes de daño visible |                    Rara vez                     |                      Media                      |              A menudo              |                Alta                |
+| **Decidir cuándo y cuánto regar**<br>Definir momento y duración del riego                         |                     Siempre                     |                      Alta                       |              A menudo              |                Alta                |
+| **Activar o detener el riego manualmente**<br>Operar válvulas o llaves del sistema                |                     Siempre                     |                      Alta                       |              Rara vez              |                Baja                |
+| **Elaborar plan de riego y fertilización**<br>Establecer cronograma de insumos por ciclo          |                    Rara vez                     |                      Media                      |              A menudo              |                Alta                |
+
+### 2.3.3. User Journey Mapping
+
+En esta sección, se determina la trayectoria de los usuarios desde que enfrentan un desafío en sus cultivos hasta alcanzar una resolución efectiva. Adicionalmente, se determinan los puntos de fricción y las cumbres de satisfacción en sus rutinas diarias, identificando los momentos críticos donde la intervención tecnológica se vuelve indispensable.
+
+### User Journey Mapping: Agricultor Tradicional
+
+![User-Journey-Mapping-Agricultor](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-journey-mapping-agricultor.jpeg)
+
+### User Journey Mapping: Ingeniero Agrónomo
+
+![User-Journey-Mapping-Ingeniero-Agronomo](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-journey-mapping-ingeniero-agronomo.jpeg)
+
+### 2.3.4. Empathy Mapping
+
+Es aquí donde profundizaremos las dimensiones psicológicas de nuestros segmentos objetivos, explorando lo que sienten, piensan y escuchan ante la crisis de inseguridad y recursos, logrando una conexión que trasciende lo técnico, revelando las motivaciones y temores profundos que guían el propósito de SATECHO.
+
+### User Empathy Map: Agricultor Tradicional
+
+![User-Empathy-Map-Agricultor](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-empathy-map-agricultor.jpeg)
+
+### User Empathy Map: Ingeniero Agrónomo
+
+![User-Empathy-Map-Ingeniero-Agronomo](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-empathy-map-ingeniero-agronomo.jpeg)
