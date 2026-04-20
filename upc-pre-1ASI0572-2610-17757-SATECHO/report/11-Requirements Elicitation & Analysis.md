@@ -297,3 +297,15 @@ En esta sección, se determina la trayectoria de los usuarios desde que enfrenta
 ### User Journey Mapping: Ingeniero Agrónomo
 
 ![User-Journey-Mapping-Ingeniero-Agronomo](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-journey-mapping-ingeniero-agronomo.jpeg)
+
+### 2.3.4. Empathy Mapping
+
+Es aquí donde profundizaremos las dimensiones psicológicas de nuestros segmentos objetivos, explorando lo que sienten, piensan y escuchan ante la crisis de inseguridad y recursos, logrando una conexión que trasciende lo técnico, revelando las motivaciones y temores profundos que guían el propósito de SATECHO.
+
+### User Empathy Map: Agricultor Tradicional
+
+![User-Empathy-Map-Agricultor](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-empathy-map-agricultor.jpeg)
+
+### User Empathy Map: Ingeniero Agrónomo
+
+![User-Empathy-Map-Ingeniero-Agronomo](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/needfinding/user-empathy-map-ingeniero-agronomo.jpeg)
