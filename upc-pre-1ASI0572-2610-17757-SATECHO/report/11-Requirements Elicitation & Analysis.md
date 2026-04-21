@@ -325,3 +325,28 @@ Este análisis se dividió en tres etapas fundamentales:
 
 Sin más detalles, se presenta el diagrama resultantes de este proceso:
 ![Big-Picture-Complete](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/big-picture-eventstorming/big-picture-eventstorming.png)
+
+## 2.5. Ubiquitous Language
+
+| **Término**                                                | **Definición**                                                                                                                                                 |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Optimal condition (Estado Óptimo)**                      | Condición ideal donde el cultivo recibe la cantidad exacta de recursos para su salud máxima, minimizando el desperdicio de agua y energía.                     |
+| **Hectares (Hectáreas)**                                   | Superficie de control donde se despliega una red específica de nodos sensores para garantizar una cobertura de datos uniforme.                                 |
+| **Water Stress (Estrés Hídrico)**                          | Estado fisiológico crítico en el que la planta no tiene suficiente agua disponible, lo que activa automáticamente protocolos de riego de emergencia.           |
+| **Soil Washing (Lavado de Suelo)**                         | Procedimiento de riego programado para desplazar el exceso de sales acumuladas en la zona de las raíces hacia capas más profundas.                             |
+| **Electrical Conductivity (Conductividad Eléctrica - EC)** | Medida técnica que indica la concentración de sales en la tierra; esencial para determinar si la planta puede absorber nutrientes correctamente.               |
+| **Hydrogen Potential (Potencial de Hidrógeno - pH)**       | Indicador de acidez o alcalinidad del terreno que determina la disponibilidad química de los nutrientes para el cultivo.                                       |
+| **Sensor Node (Dispositivo de Campo)**                     | Unidad física autónoma equipada con sensores que recolecta variables del entorno (humedad, UV, viento) y las transmite al sistema.                             |
+| **Actuator (Actuador)**                                    | Componente mecánico que ejecuta una acción física, como abrir el paso de agua, tras recibir una orden del sistema.                                             |
+| **Edge Gateway**                                           | Dispositivo que actúa como puente y procesador de datos en el campo; permite que el sistema tome decisiones rápidas incluso sin conexión a internet constante. |
+| **Threshold (Umbral)**                                     | Valor configurado que, al ser sobrepasado, dispara una alerta o una respuesta automática del sistema.                                                          |
+| **Intrusion Detection (Detección de Intrusos)**            | Evento generado por sensores de movimiento que identifica presencias no autorizadas, activando alertas de seguridad inmediatas.                                |
+| **Telemetry (Telemetría)**                                 | Proceso de envío inalámbrico de los datos captados por los sensores en el campo hacia la nube para su visualización en la App o Web.                           |
+| **Dashboard (Panel de Control)**                           | Interfaz visual centralizada donde el usuario monitorea gráficos, alertas y el estado real de sus hectáreas desde cualquier dispositivo.                       |
+| **Water Consumption (Consumo hídrico)**                    | Registro detallado del volumen de agua utilizado en cada ciclo, permitiendo al agricultor cuantificar el ahorro logrado con SATECHO.                           |
+| **Critical Alert (Alerta Crítica)**                        | Aviso de alta prioridad enviado al celular del usuario ante riesgos inminentes como intrusiones o fallas críticas en el riego.                                 |
+| **Environmental Variables (Variables Ambientales)**        | Conjunto de datos externos que influyen en la velocidad con la que el suelo pierde agua.                                                                       |
+| **Evidence of Operation (Evidencia de Operación)**         | Historial inmutable de todas las acciones realizadas, útil para auditorías agrícolas y de seguridad.                                                           |
+| **Plug & Play (Instalación Simplificada)**                 | Atributo de nuestros dispositivos que permite al agricultor instalarlos y activarlos sin necesidad de conocimientos técnicos avanzados.                        |
+| **Asset Management (Gestión Patrimonial)**                 | Enfoque del negocio que combina el cuidado biológico del cultivo con la protección física ante robos o extorsiones.                                            |
+| **Intermittent Connectivity (Conectividad Intermitente)**  | Capacidad del sistema para seguir operando y guardando datos localmente cuando la señal de red en la zona rural es inestable.                                  |
