@@ -1,8 +1,3 @@
----
-title: Title Page
-author: José Diego Huamani Sánchez
----
-
 <img src="src/images/UPC_logo.png" width="100px" height="auto"/>
 
 # Universidad Peruana de Ciencias Aplicadas
