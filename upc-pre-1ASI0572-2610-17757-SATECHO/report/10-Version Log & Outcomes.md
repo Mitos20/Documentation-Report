@@ -1,0 +1,179 @@
+# Registro de versiones del informe
+
+| Versión | Fecha | Autor | Descripción de Modificación |
+| :---: | :---: | :---: | :--- |
+| 1.0.0 | 05/04/2026 | Huamani Sánchez, José Diego | Creación del repositorio de la documentación SATECHO |
+| 1.1.0 | 08/04/2026 | Huamani Sánchez, José Diego | Redacción de la portada adjuntando los detalles acerca del código y nombre del curso, nombres de los integrantes del equipo y, nombre del docente que dicta el curso. |
+| 1.2.0 | 19/04/2025 | Huamani Sánchez, José Diego | Implementación de la nueva arquitectura de directorios para alojar cada aspecto de la documentación por capítulo y contenidos estáticos siguiendo el guía **Docs-as-code-repositories-guide-presentation**. |
+| 2.0.0 | 19/04/2025 | Huamani Sánchez, José Diego | Descripción del **Startup Profile** relacionado a la *startup* SATECHO; adicional, se redactó la sección de los perfiles de los integrantes del grupo. |
+| 2.1.0 | 19/04/2025 | Huamani Sánchez, José Diego | Descripción del **Solution Profile** detallando cada uno de los antecedentes y problemáticas mediante la técnica **5W's y 2H'  s**. |
+| 2.2.0 | 19/04/2025 | Huamani Sánchez, José Diego | Desarrollo del **Lean UX Problem Statements** y **Lean UX Assumptions**; se adicionó el texto introductorio sobre cada uno de los procesos llevado a cabo medainte el enfoque **Lean UX Process**. |
+| 2.3.0 | 19/04/2025 | Huamani Sánchez, José Diego | Desarrollo del **Lean UX Hyphotesis Statements**. |
+| 2.4.0 | 19/04/2025 | Huamani Sánchez, José Diego | Desarrollo del párrafo introductorio de lo que observaremos en el proceso del **Lean UX Canvas**. |
+| 2.5.0 | 19/04/2025 | Huamani Sánchez, José Diego | Agregación de la imagen del **Lean UX Canvas** del *startup* SATECHO así como la descripción de la sección de **Segmentos Objetivos**. |
+| 2.7.0 | 19/04/2025 | Gamio Upiachihua, Brenda Lucía | Agregación a la carpeta *assets* los logotipos de nuestros principales competidores. |
+| 2.8.0 | 19/04/2025 | Gamio Upiachihua, Brenda Lucía y Quispe Erasmo, Raul Ronaldo | Redacción del párrafo introductorio para la sección de **Competidores** así como el desarrollo del **Análisis Competitivo**. |
+| 2.9.0 | 19/04/2025 | Gamio Upiachihua, Brenda Lucía | Desarrollo de las **Estrategias y tácticas frente a competidores**. |
+| 3.0.1 | 19/04/2025 | Huamani Sánchez, José Diego | Resolución de fallos e incompatibilidad de versiones entre la rama *develop* con la rama *feature/competitors* - no permitia realizar el *merge* ya que *feature/competitors* no contaba con la versión de README.md actualizada. |
+| 3.1.1 | 20/04/2025 | Gamio Upiachihua, Brenda Lucía | Desarrollo de la formulación de las preguntas para nuestros segmentos objetivos de agricultor como ingeniero agrónomo - sección de **Entrevistas**. |
+| 3.2.1 | 20/04/2025 | Gamio Upiachihua, Brenda Lucía y Estrada Cajamune, Abraham Andrés | Elaboración de los **User Personas** centrados en los posibles usuarios interesados en adquirir nuestro servicio. |
+| 3.3.1 | 20/04/2025 | Gamio Upiachihua, Brenda Lucía | Elaboración del **User Task Matrix**. |
+| 3.4.1 | 20/04/2025 | Gamio Upiachihua, Brenda Lucía y Estrada Cajamune, Abraham Andrés | Elaboración de los **User Journey Mapping** orientando a acada uno de nuestros *User Personas*. |
+| 3.5.1 | 20/04/2025 | Gamio Upiachihua, Brenda Lucía y Estrada Cajamune, Abraham Andrés | Elaboración de los **Empathy Mapping**. |
+| 3.6.1 | 20/04/2025 | Gamio Upiachihua, Brenda Lucía | Elaboración del **Big Picture Event Storming** enfocándos en el análisis de los agricultores y ingenieros agrónomos. |
+| 4.0.0 | 21/04/2025 | Gamio Upiachihua, Brenda Lucía | Desarrollo del **Ubiquitous Language** para la definición de los términos que se utilizarán dentro del negocio y facilitar su trazabilidad y comprensión. |
+| 4.1.0 | 21/04/2025 | Huamani Sánchez, José Diego y Gamio Upiachihua, Brenda Lucía | Desarrollo de los **User Stories** relacionados a la funcionalidad que espera tener nuestro solución orientada a las perspectivas de nuestros segmentos objetivos - la gran mayoría de detalles, obtenidos mediante la información de las entrevistas realizadas. |
+| 4.2.0 | 21/04/2025 | Estrada Cajamune, Abraham André | Elaboración del **Impact Mapping**. |
+| 4.3.0 | 21/04/2025 | Huamani Sánchez, José Diego y Gamio Upiachihua, Brenda Lucía| | Elaboración del **Product Backlog** donde priorizamos cada *User Story* mediante un sistema de calificación **Fibonacci** (si una tarea es fácil de implementar o requiere un esfuerzo mayor para su concretación). |
+
+# Project Report Collaboration Insights
+
+# Contentido
+
+## Capítulo I: Introducción  
+- [1.1. Startup Profile](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#11-startup-profile)
+  - [1.1.1. Descripción de la Startup](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de Integrantes del equipo](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#121-antecedentes-y-problemáticas)
+  - [1.2.2. Lean UX Process](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#1224-lean-ux-canvas)
+- [1.3. Segmentos Objetivos](/upc-pre-1ASI0572-2610-17757-SATECHO/report/11-Introduction.md/#13-segmentos-objetivos)
+
+## Capítulo II: Requirements Elicitation & Analysis  
+- [2.1. Competidores](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#21-competidores)
+  - [2.1.1. Análisis Competitivo](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#223-análisis-de-entrevistas)
+- [2.3. Needfinding](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#23-needfinding)
+  - [2.3.1. User Personas](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#231-user-personas)
+  - [2.3.2. User Task Matrix]()
+  - [2.3.3. User Journey Mapping](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#234-empathy-mapping)
+- [2.4. Big Picture EventStorming](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md/#24-big-picture-eventstorming)
+- [2.5. Ubiquitous Language](/upc-pre-1ASI0572-2610-17757-SATECHO/report/12-Requirements_Elicitation_&_Analysis.md)
+
+## Capítulo III: Requirements Specification  
+- [3.1. To-Be Scenario Mapping](/upc-pre-1ASI0572-2610-17757-SATECHO/report/13-Requirements_Specification.md/#31-to-be-scenario-mapping)  
+- [3.2. User Stories](/upc-pre-1ASI0572-2610-17757-SATECHO/report/13-Requirements_Specification.md/)  
+- [3.3. Impact Mapping](/upc-pre-1ASI0572-2610-17757-SATECHO/report/13-Requirements_Specification.md/)  
+- [3.4. Product Backlog](/upc-pre-1ASI0572-2610-17757-SATECHO/report/13-Requirements_Specification.md/)  
+
+## Capítulo IV: Solution Software Design  
+- [4.1. Strategic-Level Domain-Driven Design](/docs/chapter-IV.md/#41-strategic-level-domain-driven-design)  
+  - [4.1.1. EventStorming](/docs/chapter-IV.md/#411-eventstorming)  
+    - [4.1.1.1. Candidate Context Discovery](/docs/chapter-IV.md/#4111-candidate-context-discovery)  
+    - [4.1.1.2. Domain Message Flows Modeling](/docs/chapter-IV.md/#4112-domain-message-flows-modeling)  
+    - [4.1.1.3. Bounded Context Canvases](/docs/chapter-IV.md/#4113-bounded-context-canvases)  
+  - [4.1.2. Context Mapping](/docs/chapter-IV.md/#412-context-mapping)  
+  - [4.1.3. Software Architecture](/docs/chapter-IV.md/#413-software-architecture)  
+    - [4.1.3.1. Software Architecture System Landscape Diagram](/docs/chapter-IV.md/#4131-software-architecture-system-landscape-diagram)  
+    - [4.1.3.2. Software Architecture Context Level Diagrams](/docs/chapter-IV.md/#4132-software-architecture-context-level-diagrams)  
+    - [4.1.3.3. Software Architecture Container Level Diagrams](/docs/chapter-IV.md/#4133-software-architecture-container-level-diagrams)  
+    - [4.1.3.4. Software Architecture Deployment Diagrams](/docs/chapter-IV.md/#4134-software-architecture-deployment-diagrams)  
+- [4.2. Tactical-Level Domain-Driven Design](/docs/chapter-IV.md/#42-tactical-level-domain-driven-design)  
+  - [4.2.1. Bounded Account & Subscription Management Context](/docs/chapter-IV.md/#421-bounded-account-subscription-management-context)  
+    - [4.2.1.1. Domain Layer](/docs/chapter-IV.md/#4211-domain-layer)  
+    - [4.2.1.2. Interface Layer](/docs/chapter-IV.md/#4212-interface-layer)  
+    - [4.2.1.3. Application Layer](/docs/chapter-IV.md/#4213-application-layer)  
+    - [4.2.1.4. Infrastructure Layer](/docs/chapter-IV.md/#4214-infrastructure-layer)  
+    - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](/docs/chapter-IV.md/#4215-bounded-context-software-architecture-component-level-diagrams)  
+    - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](/docs/chapter-IV.md/#4216-bounded-context-software-architecture-code-level-diagrams)  
+      - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](/docs/chapter-IV.md/#42161-bounded-context-domain-layer-class-diagrams)  
+      - [4.2.1.6.2. Bounded Context Database Design Diagram](/docs/chapter-IV.md/#42162-bounded-context-database-design-diagram)  
+  - [4.2.2. Bounded User & Profile Management Context](/docs/chapter-IV.md/#422-bounded-user-profile-management-context)  
+    - [4.2.2.1. Domain Layer](/docs/chapter-IV.md/#4221-domain-layer)  
+    - [4.2.2.2. Interface Layer](/docs/chapter-IV.md/#4222-interface-layer)  
+    - [4.2.2.3. Application Layer](/docs/chapter-IV.md/#4223-application-layer)  
+    - [4.2.2.4. Infrastructure Layer](/docs/chapter-IV.md/#4224-infrastructure-layer)  
+    - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](/docs/chapter-IV.md/#4225-bounded-context-software-architecture-component-level-diagrams)  
+    - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](/docs/chapter-IV.md/#4226-bounded-context-software-architecture-code-level-diagrams)  
+      - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](/docs/chapter-IV.md/#42261-bounded-context-domain-layer-class-diagrams)  
+      - [4.2.2.6.2. Bounded Context Database Design Diagram](/docs/chapter-IV.md/#42262-bounded-context-database-design-diagram)  
+  - [4.2.3. Bounded Container Management Context](/docs/chapter-IV.md/#423-bounded-container-management-context)  
+    - [4.2.3.1. Domain Layer](/docs/chapter-IV.md/#4231-domain-layer)  
+    - [4.2.3.2. Interface Layer](/docs/chapter-IV.md/#4232-interface-layer)  
+    - [4.2.3.3. Application Layer](/docs/chapter-IV.md/#4233-application-layer)  
+    - [4.2.3.4. Infrastructure Layer](/docs/chapter-IV.md/#4234-infrastructure-layer)  
+    - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](/docs/chapter-IV.md/#4235-bounded-context-software-architecture-component-level-diagrams)  
+    - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](/docs/chapter-IV.md/#4236-bounded-context-software-architecture-code-level-diagrams)  
+      - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](/docs/chapter-IV.md/#42361-bounded-context-domain-layer-class-diagrams)  
+      - [4.2.3.6.2. Bounded Context Database Design Diagram](/docs/chapter-IV.md/#42362-bounded-context-database-design-diagram)  
+  - [4.2.4. Bounded Groups Management Context](/docs/chapter-IV.md/#424-bounded-groups-management-context)  
+    - [4.2.4.1. Domain Layer](/docs/chapter-IV.md/#4241-domain-layer)  
+    - [4.2.4.2. Interface Layer](/docs/chapter-IV.md/#4242-interface-layer)  
+    - [4.2.4.3. Application Layer](/docs/chapter-IV.md/#4243-application-layer)  
+    - [4.2.4.4. Infrastructure Layer](/docs/chapter-IV.md/#4244-infrastructure-layer)  
+    - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](/docs/chapter-IV.md/#4245-bounded-context-software-architecture-component-level-diagrams)  
+    - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](/docs/chapter-IV.md/#4246-bounded-context-software-architecture-code-level-diagrams)  
+      - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](/docs/chapter-IV.md/#42461-bounded-context-domain-layer-class-diagrams)  
+      - [4.2.4.6.2. Bounded Context Database Design Diagram](/docs/chapter-IV.md/#42462-bounded-context-database-design-diagram)  
+
+## Capítulo V: Solution UI/UX Design  
+- [5.1. Style Guidelines](/docs/chapter-V.md/#51-style-guidelines)  
+  - [5.1.1. General Style Guidelines](/docs/chapter-V.md/#511-general-style-guidelines)  
+  - [5.1.2. Web, Mobile and IoT Style Guidelines](/docs/chapter-V.md/#512-web-mobile-and-iot-style-guidelines)  
+- [5.2. Information Architecture](/docs/chapter-V.md/#52-information-architecture)  
+  - [5.2.1. Organization Systems](/docs/chapter-V.md/#521-organization-systems)  
+  - [5.2.2. Labeling Systems](/docs/chapter-V.md/#522-labeling-systems)  
+  - [5.2.3. SEO Tags and Meta Tags](/docs/chapter-V.md/#523-seo-tags-and-meta-tags)  
+  - [5.2.4. Searching Systems](/docs/chapter-V.md/#524-searching-systems)  
+  - [5.2.5. Navigation Systems](/docs/chapter-V.md/#525-navigation-systems)  
+- [5.3. Landing Page UI Design](/docs/chapter-V.md/#53-landing-page-ui-design)  
+  - [5.3.1. Landing Page Wireframe](/docs/chapter-V.md/#531-landing-page-wireframe)  
+  - [5.3.2. Landing Page Mock-up](/docs/chapter-V.md/#532-landing-page-mock-up)  
+- [5.4. Applications UX/UI Design](/docs/chapter-V.md/#54-applications-uxui-design)  
+  - [5.4.1. Applications Wireframes](/docs/chapter-V.md/#541-applications-wireframes)  
+  - [5.4.2. Applications Wireflow Diagrams](/docs/chapter-V.md/#542-applications-wireflow-diagrams)  
+  - [5.4.3. Applications Mock-ups](/docs/chapter-V.md/#543-applications-mock-ups)  
+  - [5.4.4. Applications User Flow Diagrams](/docs/chapter-V.md/#544-applications-user-flow-diagrams)  
+- [5.5. Applications Prototyping](/docs/chapter-V.md/#55-applications-prototyping)  
+
+## Capítulo VI: Product Implementation, Validation & Deployment  
+- [6.1. Software Configuration Management](/docs/chapter-VI.md/#61-software-configuration-management)  
+  - [6.1.1. Software Development Environment Configuration](/docs/chapter-VI.md/#611-software-development-environment-configuration)  
+  - [6.1.2. Source Code Management](/docs/chapter-VI.md/#612-source-code-management)  
+  - [6.1.3. Source Code Style Guide & Conventions](/docs/chapter-VI.md/#613-source-code-style-guide--conventions)  
+  - [6.1.4. Software Deployment Configuration](/docs/chapter-VI.md/#614-software-deployment-configuration)  
+- [6.2. Landing Page, Services & Applications Implementation](/docs/chapter-VI.md/#62-landing-page-services--applications-implementation)  
+  - [6.2.1. Sprint 1](/docs/chapter-VI.md/#621-sprint-1)  
+    - [6.2.1.1. Sprint Planning 1](/docs/chapter-VI.md/#6211-sprint-planning-1)  
+    - [6.2.1.2. Sprint Backlog 1](/docs/chapter-VI.md/#6212-sprint-backlog-1)  
+    - [6.2.1.3. Development Evidence for Sprint Review](/docs/chapter-VI.md/#6213-development-evidence-for-sprint-review)  
+    - [6.2.1.4. Testing Suite Evidence for Sprint Review](/docs/chapter-VI.md/#6214-testing-suite-evidence-for-sprint-review)  
+    - [6.2.1.5. Execution Evidence for Sprint Review](/docs/chapter-VI.md/#6215-execution-evidence-for-sprint-review)  
+    - [6.2.1.6. Services Documentation Evidence for Sprint Review](/docs/chapter-VI.md/#6216-services-documentation-evidence-for-sprint-review)  
+    - [6.2.1.7. Software Deployment Evidence for Sprint Review](/docs/chapter-VI.md/#6217-software-deployment-evidence-for-sprint-review)  
+    - [6.2.1.8. Team Collaboration Insights during Sprint](/docs/chapter-VI.md/#6218-team-collaboration-insights-during-sprint)  
+  - [6.2.2. Sprint 2](/docs/chapter-VI.md/#622-sprint-2)  
+    - [6.2.2.1. Sprint Planning 2](/docs/chapter-VI.md/#6221-sprint-planning-2)  
+    - [6.2.2.2. Sprint Backlog 2](/docs/chapter-VI.md/#6222-sprint-backlog-2)  
+    - [6.2.2.3. Development Evidence for Sprint Review](/docs/chapter-VI.md/#6223-development-evidence-for-sprint-review)  
+    - [6.2.2.4. Testing Suite Evidence for Sprint Review](/docs/chapter-VI.md/#6224-testing-suite-evidence-for-sprint-review)  
+    - [6.2.2.5. Execution Evidence for Sprint Review](/docs/chapter-VI.md/#6225-execution-evidence-for-sprint-review)  
+    - [6.2.2.6. Services Documentation Evidence for Sprint Review](/docs/chapter-VI.md/#6226-services-documentation-evidence-for-sprint-review)  
+    - [6.2.2.7. Software Deployment Evidence for Sprint Review](/docs/chapter-VI.md/#6227-software-deployment-evidence-for-sprint-review)  
+    - [6.2.2.8. Team Collaboration Insights during Sprint](/docs/chapter-VI.md/#6228-team-collaboration-insights-during-sprint)  
+- [6.3. Validation Interviews](/docs/chapter-VI.md/#63-validation-interviews)  
+  - [6.3.1. Diseño de Entrevistas](/docs/chapter-VI.md/#631-diseño-de-entrevistas)  
+  - [6.3.2. Registro de Entrevistas](/docs/chapter-VI.md/#632-registro-de-entrevistas)  
+  - [6.3.3. Evaluaciones según Heurísticas](/docs/chapter-VI.md/#633-evaluaciones-según-heurísticas)  
+- [6.4. Video About-The-Product](/docs/chapter-VI.md/#64-video-about-the-product)
+
+# Conclusiones
+- [Conclusiones y recomendaciones]()
+- [Video About-the-Team]()
+
+# Bibliografía
+- [Bibliografía]()
+
+# Anexos
+- [Anexos]()
+
+# Student Outcome
