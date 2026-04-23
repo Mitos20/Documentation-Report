@@ -190,7 +190,7 @@ A continuación, mostraremos el análisis de los procesos iterativos y descubrim
 
 ![Lean Canvas UX - SATECHO](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/Lean-UX-Canvas-SATECHO.jpg)
 
-## Segmentos objetivos
+## 1.3. Segmentos objetivos
 
 En esta última sección, conoceremos los criterios que SATECHO consideró en la selección de nuestros segmentos objetivos de acuerdo a su relevancia en el dominio sobre la hidratación y protección del ciclo de vida de la planta. A continuación, se describirá cada uno de los segmentos junto con sus características tales como descripción, características demográficas e información estadística que justifiquen su inclusión en el mercado objetivo.
 
