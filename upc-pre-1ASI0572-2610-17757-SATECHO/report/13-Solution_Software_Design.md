@@ -56,3 +56,11 @@ En el timeline de Gestión de Cuentas y Suscripciones, un pain point es la integ
 En este timeline, un pain point es la seguridad de dispositivos perdidos. Un dispositivo IoT reportado como perdido pero con credenciales activas es un riesgo grave, ya que podría enviar telemetría falsa o manipular el riego remotamente.
 
 ![EventStorming-step3.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-4.png)
+
+---
+
+En el timeline de Asesoría y Configuración de Umbrales, un pain point es la seguridad en la modificación manual. Si el agricultor ingresa un Umbral modificado manualmente con valor fuera de rango seguro, existe el riesgo de que un valor erróneo dañe el cultivo por sobre-riego o bloqueo salino.
+
+En este timeline, un pain point es la sobrescritura de configuraciones. La Aplicación masiva de plantilla por parte del agrónomo podría sobrescribir ajustes previos personalizados por el agricultor sin que este se percate, generando conflictos operativos y desconfianza.
+
+![EventStorming-step3.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-5.png)
