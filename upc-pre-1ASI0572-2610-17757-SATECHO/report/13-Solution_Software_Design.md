@@ -64,3 +64,13 @@ En el timeline de Asesoría y Configuración de Umbrales, un pain point es la se
 En este timeline, un pain point es la sobrescritura de configuraciones. La Aplicación masiva de plantilla por parte del agrónomo podría sobrescribir ajustes previos personalizados por el agricultor sin que este se percate, generando conflictos operativos y desconfianza.
 
 ![EventStorming-step3.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-5.png)
+
+---
+
+Después, continuamos con el cuarto paso del DDD llamado Pivotal Points, donde identificamos puntos o eventos comerciales importantes que indicaban un cambio drástico en el contexto, el estado del sistema o la fase del proceso. Estos eventos marcan fronteras naturales entre bounded contexts.
+
+En el flujo de Onboarding e Identidad, el evento Email verificado por el usuario actúa como pivotal point. Marca el cambio irreversible de un visitante anónimo a un usuario autenticado, separando el contexto de adquisición del contexto de gestión de identidad y acceso.
+
+En el flujo de Monitoreo y Diagnóstico, el evento Estrés hídrico detectado es pivotal. Indica que el sistema ha pasado de solo recolectar datos brutos (Lectura de humedad) a interpretar el estado fisiológico del cultivo, separando el monitoreo de suelo del diagnóstico agronómico.
+
+![EventStorming-step4.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pivotal-points-1.png)
