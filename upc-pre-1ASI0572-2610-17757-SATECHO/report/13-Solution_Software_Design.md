@@ -22,3 +22,13 @@ El timeline describe el flujo de un sistema de riego inteligente que inicia con 
 ![EventStorming-step2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/dl-eventstorming/es-timeline.png)
 
 _Evidencia del desarrollo del segundo paso de DDD (Uno de los timelines)._
+
+### 4.1.1.1 Candidate Context Discovery
+
+Para hallar nuestros Candidate Context, continuamos con el paso 3 Pain Points, donde discutimos eventos del flujo que podrían ser cuellos de botella, pasos manuales que requieren automatización o riesgos técnicos críticos que podrían romper la experiencia del usuario o la integridad del cultivo.
+
+En el timeline de Onboarding y Registro, un pain point es la validación de datos duplicados o erróneos en el formulario. Si el sistema no valida en tiempo real el correo o la contraseña, el usuario podría perder toda la información ingresada y abandonar el proceso de registro.
+
+En este timeline, un pain point es la continuidad del wizard de configuración. Si el usuario abandona el flujo a la mitad, el sistema debe poder retomar exactamente donde se dejó; de lo contrario, la fricción aumenta y se pierde la conversión.
+
+![EventStorming-step3.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-1.png)
