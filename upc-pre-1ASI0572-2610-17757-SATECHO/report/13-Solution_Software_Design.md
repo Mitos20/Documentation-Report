@@ -100,3 +100,27 @@ En el flujo de Dispositivos IoT, el evento Dispositivo iot offline detectado (o 
 ![EventStorming-step4.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pivotal-points-5.1.png)
 
 ![EventStorming-step4.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pivotal-points-5.2.png)
+
+---
+
+Con todo ello, comenzamos el paso de Commands, donde escribimos el desencadenante de ciertos eventos del dominio, así como el actor encargado.
+
+![EventStorming-step5.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-1.png)
+
+![EventStorming-step5.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-2.png)
+
+![EventStorming-step5.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-3.png)
+
+![EventStorming-step5.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-4.png)
+
+![EventStorming-step5.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-5.png)
+
+![EventStorming-step5.6](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-6.png)
+
+![EventStorming-step5.7](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-7.png)
+
+![EventStorming-step5.8](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-8.png)
+
+![EventStorming-step5.9](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-9.png)
+
+![EventStorming-step5.10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-10.png)
