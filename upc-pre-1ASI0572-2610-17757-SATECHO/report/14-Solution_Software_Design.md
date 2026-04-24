@@ -185,3 +185,28 @@ También empezamos a discutir el uso de Sistemas Externos, donde únicamente se 
 
 ![EventStorming-step8.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-external-systems-4.png)
 
+---
+
+Después, se comenzó con la identificación de los Aggregates, para ello, tomamos criterios como granularidad, consistencia transaccional y estabilidad del ciclo de vida. Con esos criterios, se procedió a elegir los Aggregates principales.
+
+![EventStorming-step9.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-1.png)
+
+![EventStorming-step9.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-2.png)
+
+![EventStorming-step9.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-3.png)
+
+![EventStorming-step9.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-4.png)
+
+![EventStorming-step9.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-5.png)
+
+![EventStorming-step9.6](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-6.png)
+
+![EventStorming-step9.7](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-7.png)
+
+![EventStorming-step9.8](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-8.png)
+
+![EventStorming-step9.9](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-9.png)
+
+![EventStorming-step9.10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-10.png)
+
+![EventStorming-step9.11](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-11.png)
