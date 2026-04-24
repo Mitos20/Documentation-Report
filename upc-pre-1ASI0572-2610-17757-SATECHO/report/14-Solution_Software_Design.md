@@ -124,3 +124,26 @@ Con todo ello, comenzamos el paso de Commands, donde escribimos el desencadenant
 ![EventStorming-step5.9](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-9.png)
 
 ![EventStorming-step5.10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-10.png)
+
+---
+
+Después proseguimos con el paso 6, Policies, donde identificamos eventos que debían ejecutarse en automático o necesitaban alguna política de negocio.
+
+![EventStorming-step6.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-1.png)
+
+![EventStorming-step6.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-2.png)
+
+![EventStorming-step6.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-3.png)
+
+![EventStorming-step6.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-4.png)
+
+![EventStorming-step6.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-5.png)
+
+![EventStorming-step6.6](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-6.png)
+
+![EventStorming-step6.7](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-7.png)
+
+![EventStorming-step6.8](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-8.png)
+
+![EventStorming-step6.9](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-9.png)
+
