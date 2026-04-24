@@ -34,8 +34,18 @@ En este timeline, un pain point es la continuidad del wizard de configuración. 
 ![EventStorming-step3.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-1.png)
 
 ---
+
 En el timeline de Riego y Control de Cultivo, un pain point es la latencia e intermitencia de red en zonas rurales. Específicamente, existe un riesgo crítico entre el Comando de apertura de válvula encolado y la Electroválvula abierta. Si la conexión falla en ese instante, el cultivo podría no recibir el agua necesaria a tiempo.
 
 En este timeline, un pain point es la concurrencia de comandos. Dos usuarios (agricultor y agrónomo) podrían enviar comandos simultáneos para la misma zona generando un conflicto de estado en la electroválvula. Además, si un comando se ejecuta tras recuperar conexión pero supera los 30 minutos, podría regar un cultivo que ya fue hidratado manualmente, generando desperdicio hídrico.
 
 ![EventStorming-step3.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-2.png)
+
+---
+
+En el timeline de Seguridad Perimetral, un pain point es el riesgo de falsas alarmas. Si el sensor PIR o el algoritmo de clasificación térmica en el Edge no distinguen adecuadamente entre viento, animales pequeños e intrusos humanos, se genera fatiga en el usuario y desconfianza en el sistema.En el timeline de Seguridad Perimetral, un pain point es el riesgo de falsas alarmas. Si el sensor PIR o el algoritmo de clasificación térmica en el Edge no distinguen adecuadamente entre viento, animales pequeños e intrusos humanos, se genera fatiga en el usuario y desconfianza en el sistema.
+
+En este timeline, un pain point es la garantía de entrega de alertas en zonas rurales. Antes de enviar la notificación por WhatsApp, debemos asegurar que el mensaje llegue incluso con cobertura intermitente; de lo contrario, la alerta de intrusión es inútil.
+
+![EventStorming-step3.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-3.png)
+
