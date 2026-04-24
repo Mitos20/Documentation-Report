@@ -210,3 +210,11 @@ Después, se comenzó con la identificación de los Aggregates, para ello, tomam
 ![EventStorming-step9.10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-10.png)
 
 ![EventStorming-step9.11](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-11.png)
+
+---
+
+Ya por último y después de un análisis y discusión grupal, los siguientes Bounded Contexts fueron elegidos, siguiendo algunas condiciones, como la separación de responsabilidades de negocio, cambios de lenguaje ubicuo y las fronteras marcadas por los pivotal points. Por ello, al final se eligió estos Bounded Contexts:
+
+![EventStorming-step10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-bounded-context-1.png)
+
+![EventStorming-step10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-bounded-context-2.png)
