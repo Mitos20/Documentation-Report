@@ -147,3 +147,28 @@ Después proseguimos con el paso 6, Policies, donde identificamos eventos que de
 
 ![EventStorming-step6.9](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-9.png)
 
+---
+
+Con ello procedemos a discutir los Read Models, es decir, representaciones visuales que comprenden el flujo del dominio y sirven como proyecciones optimizadas para consultas.
+
+![EventStorming-step7.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-1.png)
+
+![EventStorming-step7.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-2.png)
+
+![EventStorming-step7.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-3.png)
+
+![EventStorming-step7.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-4.png)
+
+![EventStorming-step7.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-5.png)
+
+![EventStorming-step7.6](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-6.png)
+
+![EventStorming-step7.7](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-7.png)
+
+![EventStorming-step7.8](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-8.png)
+
+![EventStorming-step7.9](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-9.png)
+
+![EventStorming-step7.10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-10.png)
+
+![EventStorming-step7.11](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-11.png)
