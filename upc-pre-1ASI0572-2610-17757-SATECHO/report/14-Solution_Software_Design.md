@@ -253,4 +253,46 @@ _Este flujo muestra cómo el negocio afecta la operación técnica._
 
 ![Domain-Message-Flows-4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/domain-message-flow-model/remote-advisory.png)
 
-_Este flujo muestra cómo el agrónomo consume datos para ayudar al cliente.Este flujo muestra cómo el agrónomo consume datos para ayudar al cliente._
+_Este flujo muestra cómo el agrónomo consume datos para ayudar al cliente._
+
+### 4.1.1.3 Bounded Context Canvases
+
+De acuerdo con los bounded contexts definidos en puntos anteriores, se crearon sus respectivos Canvases. El equipo seleccionó cada contexto por orden de importancia estratégica para el negocio SATECHO, aplicando un proceso iterativo de refinamiento. A continuación, se detalla el diseño de cada uno:De acuerdo con los bounded contexts definidos en puntos anteriores, se crearon sus respectivos Canvases. El equipo seleccionó cada contexto por orden de importancia estratégica para el negocio SATECHO, aplicando un proceso iterativo de refinamiento. A continuación, se detalla el diseño de cada uno:De acuerdo con los bounded contexts definidos en puntos anteriores, se crearon sus respectivos Canvases. El equipo seleccionó cada contexto por orden de importancia estratégica para el negocio SATECHO, aplicando un proceso iterativo de refinamiento. A continuación, se detalla el diseño de cada uno:
+
+#### 1. Soil Monitoring & Agronomic Diagnosis Context
+
+![Bounded-Context-Canvas-1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/soil-monitoring-&-agronomic-diagnosis.png)
+
+_Contexto Core: Es la razón de ser del negocio. Si esto falla, no hay valor._
+
+---
+
+#### 2. Irrigation & Actuator Control Context
+
+![Bounded-Context-Canvas-2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/irrigation-&-actuator-control.png)
+
+_Contexto Core: Ejecuta las decisiones físicas. Alto impacto en el campo._
+
+---
+
+#### 3. Perimeter Security & Classification Context
+
+![Bounded-Context-Canvas-3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/perimeter-security-&-classification.png)
+
+_Contexto Core: Diferenciador clave frente a la competencia._
+
+---
+
+#### 4. Account, Subscription & Billing Management Context
+
+![Bounded-Context-Canvas-4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/account-subscription-&-billing-management.png)
+
+_Contexto Supporting: Esencial para el modelo de negocio SaaS._
+
+---
+
+#### 5. IoT Device & Edge Management Context
+
+![Bounded-Context-Canvas-5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/iot-device-&-edge-management.png)
+
+_Contexto Supporting/Generic: Mantiene el "cuerpo" del sistema._
