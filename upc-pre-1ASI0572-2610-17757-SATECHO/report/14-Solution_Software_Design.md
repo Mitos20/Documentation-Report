@@ -218,3 +218,39 @@ Ya por último y después de un análisis y discusión grupal, los siguientes Bo
 ![EventStorming-step10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-bounded-context-1.png)
 
 ![EventStorming-step10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-bounded-context-2.png)
+
+### 4.1.1.2 Domain Message Flows Modeling
+
+En esta sección, el equipo explica y evidencia el proceso seguido para visualizar cómo deben colaborar los bounded contexts para resolver los casos que se presentan en el negocio para los usuarios del sistema. Para ello, aplicamos la técnica de visualización Domain Storytelling, la cual nos permite narrar las interacciones clave donde los mensajes y eventos cruzan las fronteras de los dominios.En esta sección, el equipo explica y evidencia el proceso seguido para visualizar cómo deben colaborar los bounded contexts para resolver los casos que se presentan en el negocio para los usuarios del sistema. Para ello, aplicamos la técnica de visualización Domain Storytelling, la cual nos permite narrar las interacciones clave donde los mensajes y eventos cruzan las fronteras de los dominios.
+
+A continuación, se presentan los cuatro flujos de mensajería más relevantes para SATECHO, donde se evidencia la colaboración entre los contextos de Soil Monitor, Irrigation Control, Perimeter Security, Account Management y Agronomist Advisory.A continuación, se presentan los cuatro flujos de mensajería más relevantes para SATECHO, donde se evidencia la colaboración entre los contextos de Soil Monitor, Irrigation Control, Perimeter Security, Account Management y Agronomist Advisory.
+
+#### 1. Riego Inteligente Automático
+
+![Domain-Message-Flows-1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/domain-message-flow-model/smart-irrigation.png)
+
+_Este flujo muestra cómo el contexto de Monitoreo de Suelo dispara acciones en el contexto de Control de Riego._
+
+---
+
+#### 2. Alerta de Seguridad Perimetral
+
+![Domain-Message-Flows-2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/domain-message-flow-model/security-alert.png)
+
+_Este flujo muestra la detección de un intruso y la notificación al agricultor._
+
+---
+
+#### 3. Suspensión de Cuenta por Mora
+
+![Domain-Message-Flows-3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/domain-message-flow-model/account-suspension.png)
+
+_Este flujo muestra cómo el negocio afecta la operación técnica._
+
+---
+
+#### 4. Asesoría Remota del Agrónomo
+
+![Domain-Message-Flows-4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/domain-message-flow-model/remote-advisory.png)
+
+_Este flujo muestra cómo el agrónomo consume datos para ayudar al cliente.Este flujo muestra cómo el agrónomo consume datos para ayudar al cliente._
