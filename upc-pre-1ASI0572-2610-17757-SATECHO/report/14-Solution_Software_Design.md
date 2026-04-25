@@ -296,3 +296,120 @@ _Contexto Supporting: Esencial para el modelo de negocio SaaS._
 ![Bounded-Context-Canvas-5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/iot-device-&-edge-management.png)
 
 _Contexto Supporting/Generic: Mantiene el "cuerpo" del sistema._
+
+### 4.1.2. Context Mapping
+
+En esta sección, explicamos y evidenciamos nuestro proceso de elaboración de un conjunto de context maps, los cuales visualizan las relaciones estructurales entre los bounded contexts identificados en nuestro proyecto. Para ello, revisamos minuciosamente la información recolectada durante el Event Storming y la elaboración de los Bounded Context Canvases, utilizándola para producir y refinar diseños candidatos. Este análisis estructural nos permite entender y alinear claramente los contextos para alcanzar los objetivos del negocio de manera eficiente, minimizando el acoplamiento técnico y maximizando la autonomía de los equipos de desarrollo.
+
+Durante el proceso de mapeo, el equipo aplicó un enfoque iterativo de cuestionamiento estratégico, planteando preguntas clave para evaluar alternativas de diseño antes de consolidar la arquitectura final:
+- **¿Qué pasaría si movemos esta capability a otro bounded context?**
+    
+    Se evaluó mover la *clasificación de eventos perimetrales* al contexto de `Soil Monitoring`. Sin embargo, esto mezclaría el lenguaje ubicuo agronómico con el de seguridad física, rompiendo la cohesión del dominio. Se decidió mantenerlo en `Perimeter Security` para preservar la especialización y permitir evoluciones independientes de los algoritmos de detección térmica.
+
+- **¿Qué pasaría si descomponemos esta capability y movemos uno de los sub-capabilities a otro bounded context?**
+
+    Se analizó separar la *ingestión de telemetría* de la *gestión de firmware/OTA* dentro de `IoT Device Management`. Aunque viable a escala enterprise, para la fase MVP añadiría latencia y complejidad de red innecesaria. Se mantuvo unificado con interfaces internas claras, priorizando la simplicidad operativa en campo.
+
+- **¿Qué pasaría si partimos el bounded context en múltiples bounded contexts?**
+
+  Se consideró dividir `Account & Subscription Management` en `Identity` y `Billing`. Dado que la validación de suscripción y el control de acceso están fuertemente acoplados en el modelo de negocio SaaS (la mora detiene el acceso inmediatamente), partirlos generaría transacciones distribuidas complejas. Se mantuvo como un único contexto Supporting con responsabilidades bien delimitadas internamente.
+
+- **¿Qué pasaría si tomamos esta capability de estos 3 contexts y lo usamos para formar un nuevo context?**
+
+  Se revisó la duplicación de lógica de *notificaciones* (WhatsApp, SMS, Push) en Security, Soil y Account. En lugar de crear un contexto independiente prematuramente, se optó por un patrón de **Open Host Service** con un **Published Language** ligero, permitiendo que cada contexto core publique eventos estandarizados que un módulo de dispatching consume sin acoplarse a la lógica de origen.
+
+- **¿Qué pasaría si duplicamos una funcionalidad para romper la dependencia?**
+
+  Se evaluó duplicar el catálogo de *umbrales de cultivo* en `Irrigation Control` para evitar consultas a `Soil Monitoring`. Esto violaría el principio de única fuente de verdad. Se descartó la duplicación y se estableció un contrato síncrono/asíncrono claro, priorizando la consistencia agronómica sobre la optimización de red.
+
+- **¿Qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?**
+
+  Se analizó un **Shared Kernel** para autenticación y gestión de roles entre todos los contextos. Dado que `Account Management` debe evolucionar según regulaciones de pagos y seguridad sin afectar la lógica core de riego o diagnóstico, se rechazó el Shared Kernel por el alto riesgo de acoplamiento y se adoptó un modelo **Conformist** con tokens estandarizados.
+
+- **¿Qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?**
+
+  Esta pregunta consolidó la arquitectura final. Se aislaron explícitamente los contextos Core (`Soil Monitoring`, `Irrigation Control`, `Perimeter Security`) de los Supporting/Generic (`Account Management`, `IoT Device Management`). Esto permite que el equipo priorice la innovación en la propuesta de valor diferencial, mientras los contextos de soporte pueden ser reemplazados o integrados con soluciones SaaS externas en el futuro sin impactar el núcleo del negocio.
+
+- **¿Qué pasaría si partimos el bounded context en múltiples bounded contexts?**
+
+  Se consideró dividir `Account & Subscription Management` en `Identity` y `Billing`. Dado que la validación de suscripción y el control de acceso están fuertemente acoplados en el modelo de negocio SaaS (la mora detiene el acceso inmediatamente), partirlos generaría transacciones distribuidas complejas. Se mantuvo como un único contexto Supporting con responsabilidades bien delimitadas internamente.
+
+- **¿Qué pasaría si tomamos esta capability de estos 3 contexts y lo usamos para formar un nuevo context?**
+
+  Se revisó la duplicación de lógica de *notificaciones* (WhatsApp, SMS, Push) en Security, Soil y Account. En lugar de crear un contexto independiente prematuramente, se optó por un patrón de **Open Host Service** con un **Published Language** ligero, permitiendo que cada contexto core publique eventos estandarizados que un módulo de dispatching consume sin acoplarse a la lógica de origen.
+
+- **¿Qué pasaría si duplicamos una funcionalidad para romper la dependencia?**
+
+  Se evaluó duplicar el catálogo de *umbrales de cultivo* en `Irrigation Control` para evitar consultas a `Soil Monitoring`. Esto violaría el principio de única fuente de verdad. Se descartó la duplicación y se estableció un contrato síncrono/asíncrono claro, priorizando la consistencia agronómica sobre la optimización de red.
+
+- **¿Qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?**
+
+  Se analizó un **Shared Kernel** para autenticación y gestión de roles entre todos los contextos. Dado que `Account Management` debe evolucionar según regulaciones de pagos y seguridad sin afectar la lógica core de riego o diagnóstico, se rechazó el Shared Kernel por el alto riesgo de acoplamiento y se adoptó un modelo **Conformist** con tokens estandarizados.
+
+- **¿Qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?**
+
+  Esta pregunta consolidó la arquitectura final. Se aislaron explícitamente los contextos Core (`Soil Monitoring`, `Irrigation Control`, `Perimeter Security`) de los Supporting/Generic (`Account Management`, `IoT Device Management`). Esto permite que el equipo priorice la innovación en la propuesta de valor diferencial, mientras los contextos de soporte pueden ser reemplazados o integrados con soluciones SaaS externas en el futuro sin impactar el núcleo del negocio.
+
+#### Discusión de alternativas y aproximación final
+
+Tras evaluar las alternativas, el equipo concluyó que la mejor aproximación es un mapa de contextos descentralizado con contratos explícitos, donde los contextos Core actúan como proveedores de valor agronómico y los Supporting actúan como habilitadores operativos y comerciales. Se priorizaron los patrones Customer/Supplier, Open Host Service (OHS) con Published Language, y Conformist, evitando por completo el uso de Shared Kernels para garantizar la independencia de despliegue y evolución.
+
+1. **IoT Device Management Context — Soil Monitoring Context**
+
+   *Relación clave:* **Customer/Supplier** con **Published Language**.
+
+   `IoT Device Management` actúa como *Upstream* (Supplier), normalizando datos crudos de hardware y publicándolos mediante un lenguaje estandarizado de telemetría. `Soil Monitoring` es el *Downstream* (Customer), consumiendo estos datos sin conocer los detalles de comunicación MQTT o protocolos del ESP32. Esta relación desacopla la evolución del firmware de la lógica agronómica.
+    
+    ![Context-Mapping-1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/iot-device-management.png)
+
+    ![Context-Mapping-1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/soil-monitoring-&-diagnosis.png)
+
+---
+
+2. **Soil Monitoring Context — Irrigation & Actuator Control Context**
+
+   *Relación clave:* **Customer/Supplier** con **Anti-Corruption Layer (ACL)**.
+
+   `Soil Monitoring` es el *Upstream*, generando diagnósticos y recomendaciones de riego. `Irrigation Control` es el *Downstream*, responsable de la ejecución física. Dado que el contexto de riego debe protegerse de cambios frecuentes en los algoritmos de diagnóstico, se implementa un ACL que traduce las recomendaciones agronómicas a comandos de actuador válidos y seguros, garantizando que fallos en el análisis no deriven en acciones físicas peligrosas.
+
+    ![Context-Mapping-2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/soil-monitoring-&-diagnosis.png)
+
+    ![Context-Mapping-2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/irrigation-control.png)
+
+---
+
+3. **Account & Subscription Management Context — Core Contexts (Soil, Irrigation, Security)**
+
+   *Relación clave:* **Conformist** con **Open Host Service**.
+
+   `Account Management` define las reglas de suscripción, acceso y facturación. Los contextos Core actúan como **Conformist**, adaptándose a las APIs y políticas expuestas por Account para validar permisos y estado de cuenta. Account expone un **Open Host Service** estable para consultas de suscripción, permitiendo que los contextos Core funcionen incluso si Account migra a un proveedor de billing externo en el futuro.
+
+    ![Context-Mapping-3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/subscriptions-&-payments.png)
+
+    ![Context-Mapping-3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/admin-biling-&-operations.png)
+
+---
+
+4. **Perimeter Security Context — Notification Dispatch**
+
+   *Relación clave:* **Open Host Service** con **Published Language**.
+
+   `Perimeter Security` publica eventos clasificados (`IntrusionDetected`, `FalseAlarmLogged`) mediante un contrato claro. El módulo de notificaciones se suscribe a estos eventos sin conocer la lógica de clasificación térmica. Esto permite escalar canales de alerta (WhatsApp, SMS, Email) sin modificar el código de seguridad.
+
+    ![Context-Mapping-4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/perimeter-security.png)
+
+    ![Context-Mapping-4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/notification.png)
+
+---
+
+5. **IoT Device Management Context ↔ Account & Subscription Management Context**
+
+   *Relación clave:* **Customer/Supplier**.
+
+   `Account Management` (Upstream) emite comandos de suspensión/reactivación por mora o reporte de pérdida. `IoT Device Management` (Downstream) debe conformarse a estas órdenes para invalidar credenciales o detener telemetría, asegurando la integridad comercial y de seguridad del servicio.
+
+    ![Context-Mapping-5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/subscriptions-&-payments.png)
+
+    ![Context-Mapping-5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/admin-biling-&-operations.png)
+
+    ![Context-Mapping-5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/iot-device-management.png)
