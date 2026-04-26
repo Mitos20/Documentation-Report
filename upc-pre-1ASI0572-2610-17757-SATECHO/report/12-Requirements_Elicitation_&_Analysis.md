@@ -259,21 +259,33 @@ En esta sección, analizaremos las visiones directas de quienes enfrentan la cri
 
 ## 2.3. Needfinding
 
-En esta sección, el equipo presenta los artefactos derivados de un análisis profundo de la información recolectada durante la fase de investigación. El proceso de Needfinding nos permite trascender los datos superficiales para comprender las necesidades latentes, las motivaciones reales y los puntos de dolor críticos de nuestros usuarios. A través del análisis de las entrevistas y la observación directa, hemos sintetizado los hallazgos en herramientas estratégicas que guiarán el diseño de la solución Oryxen.
+En esta sección, el equipo presenta los artefactos derivados de un análisis profundo de la información recolectada durante la fase de investigación. El proceso de Needfinding nos permite trascender los datos superficiales para comprender las necesidades latentes, las motivaciones reales y los puntos de dolor críticos de nuestros usuarios. A través del análisis de las entrevistas y la observación directa, hemos sintetizado los hallazgos en herramientas estratégicas que guiarán el diseño de la solución AgroSafe.
 
 A continuación, se detallan los perfiles de usuario (User Personas), la priorización de sus actividades (User Task Matrix), la exploración de sus experiencias actuales (As-Is Scenario Mapping) y la inmersión en su perspectiva emocional (Empathy Mapping). Estos artefactos aseguran que cada funcionalidad desarrollada responda directamente a un problema validado en el cuidado de las plantas dentro de entornos urbanos.
 
 ### 2.3.1. User Personas
 
-La convergencia entre los hallazgos obtenidos en las entrevistas de campo y las brechas detectadas en el mercado actual permite trascender las cifras para dar rostro a los verdaderos protagonistas del entorno rural. En este apartado, las preocupaciones por la seguridad y la búsqueda de eficiencia hídrica dejan de ser conceptos abstractos y se materializan en perfiles humanos que dictan el propósito de cada funcionalidad de AgroSafe.
+En esta sección se presentan dos User Personas que representan los segmentos clave del proyecto: los agricultores independientes o dueños de fundos y los ingenieros agrónomos consultores. Estos perfiles permiten comprender en profundidad las necesidades, motivaciones, frustraciones y comportamientos de los usuarios potenciales del sistema, el cual busca mejorar la gestión agrícola y la seguridad perimetral mediante la recolección de datos del suelo, el monitoreo en tiempo real y la automatización de la fertirrigación utilizando tecnología IoT. La convergencia entre los hallazgos obtenidos en las entrevistas de campo y las brechas detectadas en el mercado actual permite trascender las cifras para dar rostro a los verdaderos protagonistas del entorno rural, las preocupaciones por la seguridad y la búsqueda de eficiencia hídrica dejan de ser conceptos abstractos y se materializan en perfiles humanos que dictan el propósito de cada funcionalidad de AgroSafe.
 
 ### User Persona 1: Agricultor Tradicional
 
+El User Persona Danilo Subasto representa a los agricultores y propietarios de parcelas o fundos medianos con una larga trayectoria trabajando la tierra. Danilo cuenta con años de experiencia en la administración de su fundo y, aunque siempre ha tomado decisiones de riego y fertilización basándose en la observación visual y su intuición, este método tradicional le ha generado pérdidas de producción de entre el 15% y el 30%, además de desgaste físico por tener que realizar rondas de vigilancia nocturnas o reaccionar a falsas alarmas. Su principal motivación es asegurar la rentabilidad de su cultivo, reduciendo el desperdicio de insumos (agua y fertilizantes) y protegiendo su parcela de intrusiones con un sistema confiable. Busca una solución tecnológica accesible, directa y fácil de entender que se integre con las herramientas que ya maneja, como su smartphone y WhatsApp, permitiéndole modernizar su trabajo sin lidiar con plataformas complejas.
+
 ![User-Persona-Agricultor](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/needfinding/user-persona-agricultor.jpeg)
+
+Nota: Elaboración propia en UXPressia (2026)
+
+La información mostrada del User Persona Danilo Subasto evidencia que valora herramientas simples, notificaciones directas (SMS/WhatsApp) y automatización accionable, ya que busca optimizar la rentabilidad de su campo y tener tranquilidad sin depender de sistemas con curvas de aprendizaje altas. En ese sentido, este perfil sintetiza claramente la oportunidad de diseñar una solución tecnológica orientada a prevenir el estrés hídrico, eliminar la vigilancia humana nocturna y apoyar una toma de decisiones más informada para la gestión del cultivo.
 
 ### User Persona 2: Ingeniero Agrónomo
 
+El User Persona Nestor Campo representa al segmento de los ingenieros agrónomos y consultores técnicos que brindan asesoría especializada a múltiples productores en la región de La Libertad. Nestor es un joven profesional de 28 años, residente en Trujillo, que cuenta con una formación sólida y una visión moderna de la agricultura. A pesar de haber crecido en un entorno agrícola tradicional, apuesta por la tecnificación para escalar su capacidad de asesoría, la cual actualmente se ve limitada por la necesidad de realizar constantes desplazamientos físicos hacia Virú y por la falta de datos históricos confiables. Su principal motivación es consolidar su reputación profesional ayudando a sus clientes a alcanzar estándares de calidad de exportación mediante el uso de herramientas de vanguardia. Busca una plataforma integral que le permita centralizar el monitoreo de diversos fundos en un solo tablero de control, facilitando la detección temprana de anomalías como el bloqueo salino o el estrés hídrico sin depender exclusivamente de inspecciones visuales.
+
 ![User-Persona-Ingeniero-Agronomo](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/needfinding/user-persona-ingeniero-agronomo.jpeg)
+
+Nota: Elaboración propia en UXpressia (2026).
+
+De la información mostrada del User Persona Nestor Campo, se observa que valora la precisión técnica, la capacidad analítica y la estabilidad de los dispositivos, ya que su confianza profesional depende de la veracidad de los datos recolectados. Nestor se siente frustrado por la baja confiabilidad de los sensores económicos actuales y por la resistencia de algunos agricultores a cambiar métodos empíricos por decisiones basadas en evidencia. En ese sentido, este perfil identifica la oportunidad estratégica de AgroSafe para posicionarse no solo como una herramienta de monitoreo, sino como un aliado del consultor técnico, proporcionando un historial de datos robusto y reportes detallados que justifican y validan sus recomendaciones agronómicas ante el cliente final.
 
 ### 2.3.2. User Task Matrix
 
