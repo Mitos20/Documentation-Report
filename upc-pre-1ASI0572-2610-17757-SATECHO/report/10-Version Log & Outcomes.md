@@ -24,8 +24,10 @@
 | 4.0.0 | 21/04/2025 | Gamio Upiachihua, Brenda Lucía | Desarrollo del **Ubiquitous Language** para la definición de los términos que se utilizarán dentro del negocio y facilitar su trazabilidad y comprensión. |
 | 4.1.0 | 21/04/2025 | Huamani Sánchez, José Diego y Gamio Upiachihua, Brenda Lucía | Desarrollo de los **User Stories** relacionados a la funcionalidad que espera tener nuestro solución orientada a las perspectivas de nuestros segmentos objetivos - la gran mayoría de detalles, obtenidos mediante la información de las entrevistas realizadas. |
 | 4.2.0 | 21/04/2025 | Estrada Cajamune, Abraham André | Elaboración del **Impact Mapping**. |
-| 4.3.0 | 21/04/2025 | Huamani Sánchez, José Diego y Gamio Upiachihua, Brenda Lucía| | Elaboración del **Product Backlog** donde priorizamos cada *User Story* mediante un sistema de calificación **Fibonacci** (si una tarea es fácil de implementar o requiere un esfuerzo mayor para su concretación). |
-| 
+| 4.3.0 | 21/04/2025 | Huamani Sánchez, José Diego y Gamio Upiachihua, Brenda Lucía | Elaboración del **Product Backlog** donde priorizamos cada *User Story* mediante un sistema de calificación **Fibonacci** (si una tarea es fácil de implementar o requiere un esfuerzo mayor para su concretación). |
+| 5.0.0 | 24/04/2026 | Gamio Upiachihua, Brenda Lucía | Desarollo del **Strategic-Level Domain-Driven Design** y **Context Mapping** |
+| 5.1.0 | 24/04/2026 | Palacios, Yasser Renteria | Desarrollo del **Software Architecture** |
+| 5.2.0 | 26/04/2026 |  Gamio Upiachihua, Brenda Lucía | Desarollo del **Tactical Level Domain-Driven Design** |
 
 # Project Report Collaboration Insights
 
@@ -215,14 +217,14 @@ _Figura #2: Historial de commits del repositorio - AV1_
 - [6.4. Video About-The-Product](/docs/chapter-VI.md/#64-video-about-the-product)
 
 # Conclusiones
-- [Conclusiones y recomendaciones]()
-- [Video About-the-Team]()
+- [Conclusiones y recomendaciones](/upc-pre-1ASI0572-2610-17757-SATECHO/report/annexes/99-annexes.md)
+- [Video About-the-Team](/upc-pre-1ASI0572-2610-17757-SATECHO/report/annexes/99-annexes.md)
 
 # Bibliografía
-- [Bibliografía]()
+- [Bibliografía](/upc-pre-1ASI0572-2610-17757-SATECHO/report/annexes/99-annexes.md)
 
 # Anexos
-- [Anexos]()
+- [Anexos](/upc-pre-1ASI0572-2610-17757-SATECHO/report/annexes/99-annexes.md)
 
 # Student Outcome
 
