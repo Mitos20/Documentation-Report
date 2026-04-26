@@ -7,7 +7,7 @@ El diseño estratégico de la plataforma AgroSafe se abordó mediante un proceso
 ### 4.1.1. Design-Level EventStorming
 El proceso de Event Storming se realizó utilizando la herramienta MIRO, donde construimos todo el flujo de manera colaborativa. Iniciamos con la fase de Exploración No Estructurada, en la que analizamos e intercambiamos ideas sobre los eventos del dominio, siguiendo las buenas prácticas recomendadas. Para la identificación de estos eventos, consideramos criterios como su relevancia, frecuencia y temporalidad.
 
-![EventStorming-step1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/dl-eventstorming/es-events.png)
+![EventStorming-step1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/dl-eventstorming/es-events.png)
 
 _Evidencia del desarrollo del primer paso del DDD._
 
@@ -19,7 +19,7 @@ El timeline describe el flujo de un sistema de riego inteligente que inicia con 
 
 El timeline describe el flujo de un sistema de riego inteligente que inicia con la captura de datos de sensores (humedad, pH y temperatura), analiza condiciones de estrés hídrico y genera un diagnóstico. Con base en ello, ejecuta el riego automáticamente hasta normalizar los valores y finalmente cierra el proceso sincronizando los datos.
 
-![EventStorming-step2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/dl-eventstorming/es-timeline.png)
+![EventStorming-step2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/dl-eventstorming/es-timeline.png)
 
 _Evidencia del desarrollo del segundo paso de DDD (Uno de los timelines)._
 
@@ -31,7 +31,7 @@ En el timeline de Onboarding y Registro, un pain point es la validación de dato
 
 En este timeline, un pain point es la continuidad del wizard de configuración. Si el usuario abandona el flujo a la mitad, el sistema debe poder retomar exactamente donde se dejó; de lo contrario, la fricción aumenta y se pierde la conversión.
 
-![EventStorming-step3.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-1.png)
+![EventStorming-step3.1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pain-points-1.png)
 
 ---
 
@@ -39,7 +39,7 @@ En el timeline de Riego y Control de Cultivo, un pain point es la latencia e int
 
 En este timeline, un pain point es la concurrencia de comandos. Dos usuarios (agricultor y agrónomo) podrían enviar comandos simultáneos para la misma zona generando un conflicto de estado en la electroválvula. Además, si un comando se ejecuta tras recuperar conexión pero supera los 30 minutos, podría regar un cultivo que ya fue hidratado manualmente, generando desperdicio hídrico.
 
-![EventStorming-step3.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-2.png)
+![EventStorming-step3.2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pain-points-2.png)
 
 ---
 
@@ -47,7 +47,7 @@ En el timeline de Seguridad Perimetral, un pain point es el riesgo de falsas ala
 
 En este timeline, un pain point es la garantía de entrega de alertas en zonas rurales. Antes de enviar la notificación por WhatsApp, debemos asegurar que el mensaje llegue incluso con cobertura intermitente; de lo contrario, la alerta de intrusión es inútil.
 
-![EventStorming-step3.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-3.png)
+![EventStorming-step3.3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pain-points-3.png)
 
 ---
 
@@ -55,7 +55,7 @@ En el timeline de Gestión de Cuentas y Suscripciones, un pain point es la integ
 
 En este timeline, un pain point es la seguridad de dispositivos perdidos. Un dispositivo IoT reportado como perdido pero con credenciales activas es un riesgo grave, ya que podría enviar telemetría falsa o manipular el riego remotamente.
 
-![EventStorming-step3.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-4.png)
+![EventStorming-step3.4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pain-points-4.png)
 
 ---
 
@@ -63,7 +63,7 @@ En el timeline de Asesoría y Configuración de Umbrales, un pain point es la se
 
 En este timeline, un pain point es la sobrescritura de configuraciones. La Aplicación masiva de plantilla por parte del agrónomo podría sobrescribir ajustes previos personalizados por el agricultor sin que este se percate, generando conflictos operativos y desconfianza.
 
-![EventStorming-step3.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pain-points-5.png)
+![EventStorming-step3.5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pain-points-5.png)
 
 ---
 
@@ -71,7 +71,7 @@ Después, continuamos con el cuarto paso del DDD llamado Pivotal Points, donde i
 
 En el flujo de Onboarding e Identidad, el evento Email verificado por el usuario actúa como pivotal point. Marca el cambio irreversible de un visitante anónimo a un usuario autenticado, separando el contexto de adquisición del contexto de gestión de identidad y acceso.
 
-![EventStorming-step4.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pivotal-points-1.png)
+![EventStorming-step4.1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pivotal-points-1.png)
 
 ---
 
@@ -79,145 +79,145 @@ En el flujo de Monitoreo y Diagnóstico, el evento Estrés hídrico detectado es
 
 En el flujo de Control de Riego, el evento Diagnóstico agronómico generado y posteriormente Riego iniciado son pivotes críticos. El primero separa la capa de análisis de la capa de ejecución; el segundo marca la transición del dominio de software al dominio físico (IoT Device/Actuator), donde una acción en el mundo real es irreversible.
 
-![EventStorming-step4.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pivotal-points-2.png)
+![EventStorming-step4.2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pivotal-points-2.png)
 
 ---
 
 En el flujo de Seguridad, el evento Evento clasificado como HUMANO es pivotal. Cambia el contexto de monitoreo pasivo a alerta crítica inmediata, disparando notificaciones externas y requiriendo una política de prioridad alta.
 
-![EventStorming-step4.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pivotal-points-3.png)
+![EventStorming-step4.3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pivotal-points-3.png)
 
 ---
 
 En el flujo de Gestión de Cuentas, los eventos Cuenta de cliente suspendida por mora y Cuenta reactivada tras regularizar pago son pivotes de estado de negocio. Condicionan el acceso a funcionalidades premium y la sincronización de dispositivos IoT.
 
-![EventStorming-step4.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pivotal-points-4.png)
+![EventStorming-step4.4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pivotal-points-4.png)
 
 ---
 
 En el flujo de Dispositivos IoT, el evento Dispositivo iot offline detectado (o falta de heartbeat en 5 min) es pivotal. Cambia el contexto de operación normal a estado de fallo, requiriendo políticas de caché local, encolamiento de comandos y notificación de soporte.
 
-![EventStorming-step4.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pivotal-points-5.1.png)
+![EventStorming-step4.5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pivotal-points-5.1.png)
 
-![EventStorming-step4.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-pivotal-points-5.2.png)
+![EventStorming-step4.5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-pivotal-points-5.2.png)
 
 ---
 
 Con todo ello, comenzamos el paso de Commands, donde escribimos el desencadenante de ciertos eventos del dominio, así como el actor encargado.
 
-![EventStorming-step5.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-1.png)
+![EventStorming-step5.1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-commands-1.png)
 
-![EventStorming-step5.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-2.png)
+![EventStorming-step5.2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-commands-2.png)
 
-![EventStorming-step5.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-3.png)
+![EventStorming-step5.3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-commands-3.png)
 
-![EventStorming-step5.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-4.png)
+![EventStorming-step5.4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-commands-4.png)
 
-![EventStorming-step5.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-5.png)
+![EventStorming-step5.5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-commands-5.png)
 
-![EventStorming-step5.6](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-6.png)
+![EventStorming-step5.6](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-commands-6.png)
 
-![EventStorming-step5.7](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-7.png)
+![EventStorming-step5.7](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-commands-7.png)
 
-![EventStorming-step5.8](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-8.png)
+![EventStorming-step5.8](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-commands-8.png)
 
-![EventStorming-step5.9](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-9.png)
+![EventStorming-step5.9](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-commands-9.png)
 
-![EventStorming-step5.10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-commands-10.png)
+![EventStorming-step5.10](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-commands-10.png)
 
 ---
 
 Después proseguimos con el paso 6, Policies, donde identificamos eventos que debían ejecutarse en automático o necesitaban alguna política de negocio.
 
-![EventStorming-step6.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-1.png)
+![EventStorming-step6.1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-policies-1.png)
 
-![EventStorming-step6.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-2.png)
+![EventStorming-step6.2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-policies-2.png)
 
-![EventStorming-step6.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-3.png)
+![EventStorming-step6.3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-policies-3.png)
 
-![EventStorming-step6.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-4.png)
+![EventStorming-step6.4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-policies-4.png)
 
-![EventStorming-step6.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-5.png)
+![EventStorming-step6.5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-policies-5.png)
 
-![EventStorming-step6.6](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-6.png)
+![EventStorming-step6.6](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-policies-6.png)
 
-![EventStorming-step6.7](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-7.png)
+![EventStorming-step6.7](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-policies-7.png)
 
-![EventStorming-step6.8](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-8.png)
+![EventStorming-step6.8](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-policies-8.png)
 
-![EventStorming-step6.9](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-policies-9.png)
+![EventStorming-step6.9](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-policies-9.png)
 
 ---
 
 Con ello procedemos a discutir los Read Models, es decir, representaciones visuales que comprenden el flujo del dominio y sirven como proyecciones optimizadas para consultas.
 
-![EventStorming-step7.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-1.png)
+![EventStorming-step7.1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-1.png)
 
-![EventStorming-step7.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-2.png)
+![EventStorming-step7.2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-2.png)
 
-![EventStorming-step7.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-3.png)
+![EventStorming-step7.3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-3.png)
 
-![EventStorming-step7.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-4.png)
+![EventStorming-step7.4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-4.png)
 
-![EventStorming-step7.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-5.png)
+![EventStorming-step7.5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-5.png)
 
-![EventStorming-step7.6](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-6.png)
+![EventStorming-step7.6](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-6.png)
 
-![EventStorming-step7.7](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-7.png)
+![EventStorming-step7.7](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-7.png)
 
-![EventStorming-step7.8](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-8.png)
+![EventStorming-step7.8](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-8.png)
 
-![EventStorming-step7.9](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-9.png)
+![EventStorming-step7.9](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-9.png)
 
-![EventStorming-step7.10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-10.png)
+![EventStorming-step7.10](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-10.png)
 
-![EventStorming-step7.11](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-read-models-11.png)
+![EventStorming-step7.11](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-read-models-11.png)
 
 ---
 
 También empezamos a discutir el uso de Sistemas Externos, donde únicamente se encontró necesario en los siguientes servicios.
 
-![EventStorming-step8.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-external-systems-1.png)
+![EventStorming-step8.1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-external-systems-1.png)
 
-![EventStorming-step8.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-external-systems-2.png)
+![EventStorming-step8.2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-external-systems-2.png)
 
-![EventStorming-step8.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-external-systems-3.png)
+![EventStorming-step8.3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-external-systems-3.png)
 
-![EventStorming-step8.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-external-systems-4.png)
+![EventStorming-step8.4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-external-systems-4.png)
 
 ---
 
 Después, se comenzó con la identificación de los Aggregates, para ello, tomamos criterios como granularidad, consistencia transaccional y estabilidad del ciclo de vida. Con esos criterios, se procedió a elegir los Aggregates principales.
 
-![EventStorming-step9.1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-1.png)
+![EventStorming-step9.1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-1.png)
 
-![EventStorming-step9.2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-2.png)
+![EventStorming-step9.2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-2.png)
 
-![EventStorming-step9.3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-3.png)
+![EventStorming-step9.3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-3.png)
 
-![EventStorming-step9.4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-4.png)
+![EventStorming-step9.4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-4.png)
 
-![EventStorming-step9.5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-5.png)
+![EventStorming-step9.5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-5.png)
 
-![EventStorming-step9.6](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-6.png)
+![EventStorming-step9.6](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-6.png)
 
-![EventStorming-step9.7](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-7.png)
+![EventStorming-step9.7](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-7.png)
 
-![EventStorming-step9.8](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-8.png)
+![EventStorming-step9.8](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-8.png)
 
-![EventStorming-step9.9](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-9.png)
+![EventStorming-step9.9](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-9.png)
 
-![EventStorming-step9.10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-10.png)
+![EventStorming-step9.10](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-10.png)
 
-![EventStorming-step9.11](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-aggregates-11.png)
+![EventStorming-step9.11](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-aggregates-11.png)
 
 ---
 
 Ya por último y después de un análisis y discusión grupal, los siguientes Bounded Contexts fueron elegidos, siguiendo algunas condiciones, como la separación de responsabilidades de negocio, cambios de lenguaje ubicuo y las fronteras marcadas por los pivotal points. Por ello, al final se eligió estos Bounded Contexts:
 
-![EventStorming-step10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-bounded-context-1.png)
+![EventStorming-step10](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-bounded-context-1.png)
 
-![EventStorming-step10](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/candidate-context-discovery/es-bounded-context-2.png)
+![EventStorming-step10](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/candidate-context-discovery/es-bounded-context-2.png)
 
 ### 4.1.1.2 Domain Message Flows Modeling
 
@@ -227,7 +227,7 @@ A continuación, se presentan los cuatro flujos de mensajería más relevantes p
 
 #### 1. Riego Inteligente Automático
 
-![Domain-Message-Flows-1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/domain-message-flow-model/smart-irrigation.png)
+![Domain-Message-Flows-1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/domain-message-flow-model/smart-irrigation.png)
 
 _Este flujo muestra cómo el contexto de Monitoreo de Suelo dispara acciones en el contexto de Control de Riego._
 
@@ -235,7 +235,7 @@ _Este flujo muestra cómo el contexto de Monitoreo de Suelo dispara acciones en 
 
 #### 2. Alerta de Seguridad Perimetral
 
-![Domain-Message-Flows-2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/domain-message-flow-model/security-alert.png)
+![Domain-Message-Flows-2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/domain-message-flow-model/security-alert.png)
 
 _Este flujo muestra la detección de un intruso y la notificación al agricultor._
 
@@ -243,7 +243,7 @@ _Este flujo muestra la detección de un intruso y la notificación al agricultor
 
 #### 3. Suspensión de Cuenta por Mora
 
-![Domain-Message-Flows-3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/domain-message-flow-model/account-suspension.png)
+![Domain-Message-Flows-3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/domain-message-flow-model/account-suspension.png)
 
 _Este flujo muestra cómo el negocio afecta la operación técnica._
 
@@ -251,7 +251,7 @@ _Este flujo muestra cómo el negocio afecta la operación técnica._
 
 #### 4. Asesoría Remota del Agrónomo
 
-![Domain-Message-Flows-4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/domain-message-flow-model/remote-advisory.png)
+![Domain-Message-Flows-4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/domain-message-flow-model/remote-advisory.png)
 
 _Este flujo muestra cómo el agrónomo consume datos para ayudar al cliente._
 
@@ -261,7 +261,7 @@ De acuerdo con los bounded contexts definidos en puntos anteriores, se crearon s
 
 #### 1. Soil Monitoring & Agronomic Diagnosis Context
 
-![Bounded-Context-Canvas-1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/soil-monitoring-&-agronomic-diagnosis.png)
+![Bounded-Context-Canvas-1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context-canvases/soil-monitoring-&-agronomic-diagnosis.png)
 
 _Contexto Core: Es la razón de ser del negocio. Si esto falla, no hay valor._
 
@@ -269,7 +269,7 @@ _Contexto Core: Es la razón de ser del negocio. Si esto falla, no hay valor._
 
 #### 2. Irrigation & Actuator Control Context
 
-![Bounded-Context-Canvas-2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/irrigation-&-actuator-control.png)
+![Bounded-Context-Canvas-2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context-canvases/irrigation-&-actuator-control.png)
 
 _Contexto Core: Ejecuta las decisiones físicas. Alto impacto en el campo._
 
@@ -277,7 +277,7 @@ _Contexto Core: Ejecuta las decisiones físicas. Alto impacto en el campo._
 
 #### 3. Perimeter Security & Classification Context
 
-![Bounded-Context-Canvas-3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/perimeter-security-&-classification.png)
+![Bounded-Context-Canvas-3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context-canvases/perimeter-security-&-classification.png)
 
 _Contexto Core: Diferenciador clave frente a la competencia._
 
@@ -285,7 +285,7 @@ _Contexto Core: Diferenciador clave frente a la competencia._
 
 #### 4. Account, Subscription & Billing Management Context
 
-![Bounded-Context-Canvas-4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/account-subscription-&-billing-management.png)
+![Bounded-Context-Canvas-4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context-canvases/account-subscription-&-billing-management.png)
 
 _Contexto Supporting: Esencial para el modelo de negocio SaaS._
 
@@ -293,7 +293,7 @@ _Contexto Supporting: Esencial para el modelo de negocio SaaS._
 
 #### 5. IoT Device & Edge Management Context
 
-![Bounded-Context-Canvas-5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/bounded-context-canvases/iot-device-&-edge-management.png)
+![Bounded-Context-Canvas-5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context-canvases/iot-device-&-edge-management.png)
 
 _Contexto Supporting/Generic: Mantiene el "cuerpo" del sistema._
 
@@ -360,9 +360,9 @@ Tras evaluar las alternativas, el equipo concluyó que la mejor aproximación es
 
    `IoT Device Management` actúa como *Upstream* (Supplier), normalizando datos crudos de hardware y publicándolos mediante un lenguaje estandarizado de telemetría. `Soil Monitoring` es el *Downstream* (Customer), consumiendo estos datos sin conocer los detalles de comunicación MQTT o protocolos del ESP32. Esta relación desacopla la evolución del firmware de la lógica agronómica.
     
-    ![Context-Mapping-1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/iot-device-management.png)
+    ![Context-Mapping-1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/iot-device-management.png)
 
-    ![Context-Mapping-1](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/soil-monitoring-&-diagnosis.png)
+    ![Context-Mapping-1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/soil-monitoring-&-diagnosis.png)
 
 ---
 
@@ -372,9 +372,9 @@ Tras evaluar las alternativas, el equipo concluyó que la mejor aproximación es
 
    `Soil Monitoring` es el *Upstream*, generando diagnósticos y recomendaciones de riego. `Irrigation Control` es el *Downstream*, responsable de la ejecución física. Dado que el contexto de riego debe protegerse de cambios frecuentes en los algoritmos de diagnóstico, se implementa un ACL que traduce las recomendaciones agronómicas a comandos de actuador válidos y seguros, garantizando que fallos en el análisis no deriven en acciones físicas peligrosas.
 
-    ![Context-Mapping-2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/soil-monitoring-&-diagnosis.png)
+    ![Context-Mapping-2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/soil-monitoring-&-diagnosis.png)
 
-    ![Context-Mapping-2](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/irrigation-control.png)
+    ![Context-Mapping-2](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/irrigation-control.png)
 
 ---
 
@@ -384,9 +384,9 @@ Tras evaluar las alternativas, el equipo concluyó que la mejor aproximación es
 
    `Account Management` define las reglas de suscripción, acceso y facturación. Los contextos Core actúan como **Conformist**, adaptándose a las APIs y políticas expuestas por Account para validar permisos y estado de cuenta. Account expone un **Open Host Service** estable para consultas de suscripción, permitiendo que los contextos Core funcionen incluso si Account migra a un proveedor de billing externo en el futuro.
 
-    ![Context-Mapping-3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/subscriptions-&-payments.png)
+    ![Context-Mapping-3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/subscriptions-&-payments.png)
 
-    ![Context-Mapping-3](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/admin-biling-&-operations.png)
+    ![Context-Mapping-3](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/admin-biling-&-operations.png)
 
 ---
 
@@ -396,9 +396,9 @@ Tras evaluar las alternativas, el equipo concluyó que la mejor aproximación es
 
    `Perimeter Security` publica eventos clasificados (`IntrusionDetected`, `FalseAlarmLogged`) mediante un contrato claro. El módulo de notificaciones se suscribe a estos eventos sin conocer la lógica de clasificación térmica. Esto permite escalar canales de alerta (WhatsApp, SMS, Email) sin modificar el código de seguridad.
 
-    ![Context-Mapping-4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/perimeter-security.png)
+    ![Context-Mapping-4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/perimeter-security.png)
 
-    ![Context-Mapping-4](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/notification.png)
+    ![Context-Mapping-4](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/notification.png)
 
 ---
 
@@ -408,8 +408,8 @@ Tras evaluar las alternativas, el equipo concluyó que la mejor aproximación es
 
    `Account Management` (Upstream) emite comandos de suspensión/reactivación por mora o reporte de pérdida. `IoT Device Management` (Downstream) debe conformarse a estas órdenes para invalidar credenciales o detener telemetría, asegurando la integridad comercial y de seguridad del servicio.
 
-    ![Context-Mapping-5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/subscriptions-&-payments.png)
+    ![Context-Mapping-5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/subscriptions-&-payments.png)
 
-    ![Context-Mapping-5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/admin-biling-&-operations.png)
+    ![Context-Mapping-5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/admin-biling-&-operations.png)
 
-    ![Context-Mapping-5](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/context-mapping/iot-device-management.png)
+    ![Context-Mapping-5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/iot-device-management.png)
