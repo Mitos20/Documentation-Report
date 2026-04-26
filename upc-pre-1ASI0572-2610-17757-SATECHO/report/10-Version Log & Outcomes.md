@@ -28,6 +28,53 @@
 
 # Project Report Collaboration Insights
 
+Para el presente desarrollo de la documentación de la idea del proyecto, se utilizó la herramienta **Github** para registrar minuciosamente los cambios aplicados por cada uno de los miembros del equipo y mantener versiones consistentes en el transcurso del ciclo de vida del proyecto.
+
+- **Link del repositorio del Informe:** [https://github.com/S-A-T-E-C-H-O/Documentation-Report](https://github.com/S-A-T-E-C-H-O/Documentation-Report)
+
+- **Link del repositorio de la organización:** [https://github.com/S-A-T-E-C-H-O](https://github.com/S-A-T-E-C-H-O)
+
+**Contribuyentes**:
+
+| Integrantes | Usuario de Github |
+| :--- | :--- |
+| José Diego Huamani Sánchez | `ProgramadorHuamani` |
+| Brenda Lucía Gamio Upiachihua | `B-Gamio` |
+| Raul Ronaldo Quispe Erasmo | `Raul-QE` |
+| Abraham Andrés Estrada Cajamune | `Abraham0310` |
+| Yasser Renteria Palacios | `petitavo` |
+
+---
+
+**AV1 - Semana 4**
+
+En el transcurso de dicha actividad, el equipo centro sus esfuerzos en desarrollar los siguientes puntos comprometidos para esta entrega, los cuales se mencionarán a continuación:
+
+  - **Informe del proyecto:** (Carátula, Registro de versiones, Project Report Collaboration Insights, _Student Outcomes_ y Tabla de Contenidos)
+  - **Capítulos I - Introducción** 
+  - **Capítulo II - Requirements Elicitation & Analysis**
+  - **Capítulo III - Requirements Specification**
+  - **Capítulo IV - Solution Software Design**
+  - **Conclusiones y Recomendaciones** (Bibliografía, Anexos)
+  - **Keynote y Video de sustentación del avance**
+
+Cada capítulo ha sido desarrollado siguiendo las buenas práticas de *conventional commits* como los podemos apreciar en el siguiente ejemplo:
+
+```bash
+feat(user-stories): add the wording description and details about the impact mapping associate with ours users
+docs(user-stories): apply correction about the Epic ID associated with the User Stories
+```
+
+**Resumenes de colaboración - Github Analytics Insights:**
+
+![Project Report Collaboration Insights - AV1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/project-collaboration-insights/project-collaboration-insights-av1.png)
+
+_Figura #1: Contribuciones por integrante realizados - AV1_
+
+![Commits History - AV1](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/project-collaboration-insights/commits-history-av1.png)
+
+_Figura #2: Historial de commits del repositorio - AV1_
+
 # Contentido
 
 ## Capítulo I: Introducción  
