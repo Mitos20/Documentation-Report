@@ -1,8 +1,8 @@
 # Capítulo III - Requirements Specification
 
-En esta sección, presenta la especificación de requisitos de ParkingNow, a partir de los hallazgos obtenidos en las etapas previas de análisis del problema, entrevistas, needfinding, Big Picture EventStorming y definición del Ubiquitous Language. Su propósito es traducir el entendimiento del dominio en un conjunto estructurado de requisitos que orienten de manera clara el desarrollo del producto dentro del alcance del proyecto.
+En esta sección, se presenta la especificación de requisitos de AgroSafe a partir de los hallazgos obtenidos en las etapas previas de análisis del problema, entrevistas, needfinding, Big Picture EventStorming y definición del Ubiquitous Language. Su propósito es traducir el entendimiento del dominio en un conjunto estructurado de requisitos que orienten de manera clara el desarrollo del producto dentro del alcance del proyecto.
 
-A partir de ello, este capítulo organiza los requerimientos funcionales y técnicos de la solución en artefactos que permiten vincular necesidades de los usuarios, objetivos del producto y decisiones de implementación a nivel de MVP académico. En particular, se detallan las User Stories, el Impact Mapping y el Product Backlog, con el fin de asegurar trazabilidad entre el problema identificado, el valor esperado para los segmentos objetivo y el trabajo que deberá ejecutar el equipo durante el desarrollo del sistema.
+A partir de ello, este capítulo organiza los requerimientos funcionales y técnicos de la solución en artefactos que permiten vincular necesidades de los usuarios, objetivos del producto y decisiones de implementación a nivel de MVP académico. En particular, se detallan las **User Stories**, el **Impact Mapping** y el **Product Backlog**, con el fin de asegurar trazabilidad entre el problema identificado, el valor esperado para los segmentos objetivo y el trabajo que deberá ejecutar el equipo durante el desarrollo del sistema.
 
 ## 3.1. User Stories
 
@@ -14,13 +14,17 @@ Las épicas representan agrupaciones estratégicas de funcionalidades que organi
 
 | Epic ID | Epics | Description | Related User Stories |
 | :---: | :--- | :--- | :---: |
-| EP-001 | Digital Acquisition and Onboarding | Turn visitors into active users through a seamless sign-up experience | US-01.1 a US-01.7 / US-02W.1 a US-02W.3 |
-| EP-002 | Smart Monitoring and Water Management | Centralizar la salud del suelo y automatizar el riego para optimizar recursos | US-02.1 a US-02.4 / US-03.1 a US-03.2 |
-| EP-003 | Perimeter Security and Early Warning | Proteger la inversión del agricultor contra intrusos y factores ambientales críticos | US-02B.1 a US-02B.3 / US-11.1 a US-11.2 |
-| EP-004 | Professional Agricultural Consulting | Empoderar al agrónomo para gestionar múltiples clientes y estandarizar recomendaciones | US-04.1 a US-04.5 / US-CALC.1 a US-CALC.2 |
-| EP-005 | IoT and Edge Infrastructure | Garantizar la resiliencia técnica de los dispositivos y la conectividad en campo | US-10.1 a US-10.4 / TS-05.1 a TS-EMB.3 |
-| EP-006 | Operations, Support, and Growth | Gestionar la monetización, la flota de dispositivos y las métricas de éxito de la startup | US-06.1 a US-08.2 / US-09.1 a US-09.3 |
-| EP-007 | Software Quality and User Experience | Validar la robustez, seguridad y accesibilidad de toda la plataforma tecnológica | US-QA.1 a US-QA.10 |
+| EP-001 | Digital Acquisition and Onboarding | Turn visitors into active users through a seamless sign-up experience | EP-001-US001 / EP-001-US002 / EP-001-US003 / EP-001-US004 / EP-001-US005 / EP-001-US006 / EP-001-US007 / EP12-TS001 / EP12-TS002 / EP12-TS003 / EP12-TS021 / EP12-TS027 / EP12-TS028 |
+| EP-002 | Smart Monitoring and Water Management | Centralizar la salud del suelo y automatizar el riego para optimizar recursos | EP-002-US001 / EP2-US002 / EP2-US003 / EP2-US004 / EP12-TS001 / EP12-TS002 / EP12-TS003 / EP12-TS012 / EP12-TS019 / EP12-TS026 |
+| EP-003 | Perimeter Security and Early Warning | Proteger la inversión del agricultor contra intrusos y factores ambientales críticos | EP3-US005 / EP3-US006 / EP3-US007 / EP12-TS013 / EP12-TS015 / EP12-TS025 |
+| EP-004 | Mobile Field Operations and IoT Device Management | Enable farmers to operate, monitor, and control their IoT devices from mobile under real-world field conditions | EP4-US008 / EP4-US009 / EP4-US010 / EP4-US011 / EP7-US017 / EP7-US018 / EP7-US019 / EP14-SS001 / EP14-SS002 |
+| EP-005 | IoT and Edge Infrastructure | Garantizar la resiliencia técnica de los dispositivos y la conectividad en campo | EP5-US012 / EP5-US013 / EP12-TS004 / EP12-TS005 / EP12-TS006 / EP12-TS007 / EP12-TS008 / EP12-TS009 / EP12-TS010 / EP12-TS011 / EP12-TS014 / EP12-TS020 / EP12-TS022 / EP13-MS001 / EP13-MS002 / EP13-MS004 / EP13-MS005 / EP13-MS006 / EP13-MS008 / EP13-MS009 / EP13-MS010 / EP13-MS011 / EP13-MS013 / EP13-MS014 |
+| EP-006 | Subscriptions, Billing and Revenue Operations | Gestionar la monetización del servicio, ciclo de vida de suscripciones y procesos de cobro automático | EP6-US014 / EP6-US015 / EP6-US016 / EP12-TS016 / EP12-TS017 / EP13-MS012 |
+| EP-007 | Software Quality and User Experience | Validar la robustez, seguridad y accesibilidad de toda la plataforma tecnológica | EP12-TS026 / EP12-TS027 / EP12-TS028 |
+| EP-008 | Notifications and Multi-Channel Communication | Deliver timely, reliable, and personalized alerts across Push, WhatsApp, and SMS to keep all users informed and able to act | EP8-US020 / EP8-US021 / EP12-US001 / EP12-US012 / EP12-TS018 / EP12-TS023 / EP12-TS024 / EP13-MS003 |
+| EP-009 | Agronomist Consulting and Multi-Client Management | Empowering agronomists to remotely supervise multiple client parcels, standardize recommendations, and deliver data-driven consulting at scale | EP9-US001 / EP9-US002 / EP9-US003 / EP9-US004 / EP9-US005 |
+| EP-010 | Customer Support and IoT Fleet Monitoring | Provide support staff with tools to monitor device health fleet-wide, detect incidents, and resolve issues without field visits | EP10-US001 / EP13-MS007 |
+| EP-011 | Ops, Admin and Customer Account Management | Enable the Ops & Billing team to manage customer lifecycle, device activations, account suspensions, and internal administrative workflows | EP11-US001 / EP11-US002 |
 
 ## User Stories
 
@@ -171,5 +175,6 @@ Finalmente, los Spíkes Stories corresponden a investigaciones técnicas o funci
 | :---: | :--- | :--- | :--- | :---: |
 | EP14-SS001 | Research Thermal PIR vs RGB Camera for Threat Classification | **As an** IoT Development Team, **I want** to research and compare the accuracy and energy consumption of a thermal PIR sensor vs an RGB camera **so that** we can decide which hardware to implement in the perimeter security MVP. | **Scenario 1: Execute field comparison tests** <br> **Given** that data is needed to decide the sensor architecture <br> **When** we run comparative field tests (person, animal, wind) <br> **Then** we obtain a technical report with accuracy, consumption, and cost metrics that enables recommending the best option for the MVP. | EP-004 |
 | EP14-SS002 | Research Offline-Capable ML Model Size for Edge Classification | **As an** R&D Team, **I want** to research the maximum classification model size executable on the ESP32 **so that** we can define whether PIR classification can occur entirely on the device or requires the Edge component. | **Scenario 1: Benchmark model inference on ESP32 hardware** <br> **Given** that we have candidate models of different sizes (TFLite Micro) <br> **When** we run inference benchmarks on the target hardware <br> **Then** we obtain latency, RAM, energy consumption, and accuracy metrics per model, and document the architecture recommendation. | EP-004 |
+
 
 
