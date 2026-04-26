@@ -304,15 +304,25 @@ A través del **User Task Matrix**, se desglosan las tareas clave que nuestros U
 
 ### 2.3.3. User Journey Mapping
 
-En esta sección, se determina la trayectoria de los usuarios desde que enfrentan un desafío en sus cultivos hasta alcanzar una resolución efectiva. Adicionalmente, se determinan los puntos de fricción y las cumbres de satisfacción en sus rutinas diarias, identificando los momentos críticos donde la intervención tecnológica se vuelve indispensable.
+En esta sección se presentan los User Journey Maps en su versión As-Is (situación actual), elaborados mediante la herramienta UXPressia. Estos diagramas ilustran el end-to-end journey que experimentan nuestros dos segmentos objetivo durante una jornada típica de gestión agrícola tradicional, sin contar aún con la implementación de la solución tecnológica propuesta (AgroSafe).
+
+El objetivo de este análisis es mapear cronológicamente las acciones, los puntos de contacto (touchpoints), los problemas reales y la curva de experiencia emocional (desde la expectativa hasta la frustración). Al vincular estos recorridos con las fichas de los User Personas previamente definidas, logramos identificar las oportunidades de diseño (Ideas/Opportunities) donde nuestro sistema automatizado de IoT y monitoreo remoto generará el mayor impacto y alivio para el usuario.
 
 ### User Journey Mapping: Agricultor Tradicional
 
+El siguiente mapa detalla la jornada actual de Danilo Subasto, vinculado a nuestro segmento de agricultores y dueños de fundos. El end-to-end journey ilustra un proceso altamente ineficiente y desgastante. Inicia en la fase Aware con una caminata matutina donde las decisiones se toman por intuición visual. Durante la fase Use, el recorrido muestra un alto nivel de fricción física debido a la manipulación manual de válvulas y la constante ansiedad por la seguridad perimetral. El punto más bajo de la experiencia (fase Develop) ocurre cuando Danilo encuentra daños visibles en el cultivo, evidenciando un proceso puramente reactivo. Finalmente, la jornada culmina (Leave) con agotamiento y paranoia nocturna al no tener registros de agua ni vigilancia automatizada.
+
 ![User-Journey-Mapping-Agricultor](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/needfinding/user-journey-mapping-agricultor.jpeg)
+
+Nota: Elaboración propia en UXPressia (2026)
 
 ### User Journey Mapping: Ingeniero Agrónomo
 
+El segundo mapa representa el recorrido actual de Nestor Campo, vinculado a nuestro segmento de ingenieros agrónomos consultores. Su end-to-end journey refleja las limitaciones de la agricultura empírica a escala. El recorrido inicia con la planificación de su ruta, enfrentando horas de viaje entre fundos de La Libertad. Al llegar a las parcelas, se encuentra con la dificultad técnica de no contar con un historial de datos del suelo, lo que lo obliga a dar recomendaciones basadas en observaciones puntuales y parciales. La frustración del usuario alcanza su pico cuando se da cuenta de que el agricultor regó "al ojo" o cuando detecta síntomas de estrés hídrico que pudieron haberse prevenido con alertas tempranas. El recorrido evidencia la necesidad urgente de un dashboard centralizado que le permita diagnosticar a distancia.
+
 ![User-Journey-Mapping-Ingeniero-Agronomo](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/needfinding/user-journey-mapping-ingeniero-agronomo.jpeg)
+
+Nota: Elaboración propia en UXPressia (2026)
 
 ### 2.3.4. Empathy Mapping
 
