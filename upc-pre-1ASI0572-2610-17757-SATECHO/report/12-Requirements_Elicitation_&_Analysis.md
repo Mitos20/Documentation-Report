@@ -368,19 +368,52 @@ A continuación, se detalla la síntesis de sus cuadrantes:
 
 ## 2.4. Big Picture EventStorming
 
-Para construir una herramienta que responda con precisión a las necesidades del agricultor e ingeniero agrónomo, el equipo de **SATECHO** ha realizado un ejercicio de mapeo visual integral. El objetivo de esta sección es mostrar la *Big Picture* de nuestro ecosistema, permitiendo que cualquier lector comprenda el flujo de trabajo.
+En esta sección, el equipo presenta el desarrollo del **Big Picture Event Storming**, una dinámica colaborativa realizada para entender a profundidad el dominio del negocio (el sistema agronómico y la gestión de cultivos). El objetivo de esta sesión fue plasmar visualmente los eventos de dominio más significativos, trazar sus relaciones de causa y efecto, e identificar los procesos clave que conformarán la arquitectura de **AgroSafe**. 
 
-Este análisis se dividió en tres etapas fundamentales:
+El proceso se desarrolló iterativamente a través de tres etapas fundamentales de la metodología: **Open** (descubrimiento), **Explore** (análisis y narrativa) y **Close** (estructuración convergente).
 
-1. **Fase de Apertura (Open):** En este primer momento, el equipo volcó todas las situaciones y eventos que ocurren en el día a día del campo, como el inicio de un riego, la detección de un movimiento sospechoso o la variación del **pH** del suelo -capturando la realidad compleja en el sector agronómico.
+#### Etapa 1: Open & Explore (Exploración del Dominio)
+
+Durante la primera fase, el equipo utilizó un lienzo infinito para realizar una lluvia de ideas sin restricciones (*brainstorming* divergente). El objetivo fue plasmar todo lo que ocurre en el entorno agrícola real utilizando notas naranjas (Eventos de Dominio), redactadas en tiempo pasado. 
+
+Como se observa en el diagrama inicial, se capturaron eventos desde el origen del proceso, como **"cultivo sembrado"**, hasta factores ambientales incontrolables como **"el clima cambia"** o **"la tierra se seca"**. En esta etapa no hubo preocupación por el orden estricto, sino por vaciar el conocimiento empírico del dominio sobre el tablero.
+
 ![Big-Picture-Open](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/big-picture-eventstorming/big-picture-eventstorming-open.png)
-1. **Fase de Exploración (Explore):** Organizamos esos eventos para identificar las "zonas de dolor", explorando cómo se conectan los problemas de inseguridad con la falta de datos técnicos.
+
+#### Etapa 2: Explore (Ordenamiento y Narrativa)
+
+En la segunda fase, el equipo procedió a organizar los eventos de dominio descubiertos a lo largo de una línea de tiempo lógica, estableciendo una narrativa coherente y trazando las relaciones de causa y efecto.
+
+Se estructuró la secuencia causal de los problemas y sus mitigaciones: un cambio ambiental genera que **"humedad cambió"**, lo que detona situaciones críticas como **"se nota el estrés del cultivo"** o **"toxicidad por sales detectada"**. Esta exploración visual nos permitió conectar el diagnóstico agronómico con la respuesta mecánica, trazando el camino desde la **"necesidad de riego"** o **"necesidad de fertilización"** hasta la ejecución final (**"válvula abierta"** y **"válvula cerrada"**).
+
 ![Big-Picture-Explore](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/big-picture-eventstorming/big-picture-eventstorming-explore.png)
-1. **Fase de Cierre y Valor (Close/Plus):** Finalmente, refinamos el análisis para centrarnos en lo que genera valor real. Es en esta etapa donde definimos las reglas que permiten a **SATECHO** ser una solución intuitiva y efectiva, asegurando que cada nota adhesiva que verán a continuación represente una funcionalidad diseñada para proteger el patrimonio y optimizar el recurso hídrico.
+
+#### Etapa 3: Close (Estructuración y Procesos Clave)
+
+En la etapa final y convergente, el equipo agrupó los eventos ordenados para definir las fronteras estructurales del sistema (representadas con notas verdes y rosas). Esta fase fue vital para identificar los límites funcionales y posibles "puntos ciegos" o huecos en la lógica del negocio.
+
+Se definieron los módulos funcionales (*Core*) que AgroSafe debe solventar:
+1.  **Monitoreo:** Eventos relacionados con la captura de datos físicos del suelo (humedad, pH, temperatura, conductividad eléctrica).
+2.  **Modelo de toma de decisiones:** El motor analítico que evalúa las reglas e interpreta si el estado es óptimo o si se debe lanzar una **"alerta enviada al agricultor"**.
+3.  **Riego y fertilización automática:** La capa de actuación física que gestiona la automatización de válvulas.
+
+**Identificación de Oportunidades y Límites (Out of Scope):**
+Durante esta delimitación, se aisló un grupo de eventos relacionados a la **"seguridad perimetral"** (notas moradas y amarillas). Aunque se identificó que explícitamente *"no es parte del core"* puramente agronómico, el equipo decidió mantenerlo documentado en el *landscape* como una oportunidad crítica de valor agregado para proteger la inversión en hardware del agricultor.
+
+
 ![Big-Picture-Close](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/big-picture-eventstorming/big-picture-eventstorming-close.png)
 
-Sin más detalles, se presenta el diagrama resultantes de este proceso:
+En esta sección, el equipo resume el proceso y presenta el resultado integral del **Big Picture Event Storming**. Mediante esta dinámica colaborativa, nos enfocamos en comprender el dominio del negocio agronómico en su totalidad, plasmando los eventos más significativos del ciclo de cultivo y trazando sus relaciones de causa y efecto.
+
 ![Big-Picture-Complete](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/big-picture-eventstorming/big-picture-eventstorming.png)
+
+El diagrama general expone el *landscape* completo del negocio a través de las tres etapas metodológicas consolidadas de forma progresiva en un solo lienzo:
+
+1. **Open (Descubrimiento):** Se mapearon todos los eventos de dominio relevantes (notas naranjas) mediante una lluvia de ideas divergente. Se capturaron desde factores ambientales incontrolables ("el clima cambia", "la tierra se seca") hasta alteraciones físicas ("humedad cambió"), abarcando todo lo que ocurre en el campo.
+2. **Explore (Narrativa y Relaciones):** Se estructuraron los eventos cronológicamente para entender la historia causal. Se conectaron los detonantes naturales con el diagnóstico del problema ("se nota el estrés del cultivo", "toxicidad por sales detectada") y se trazó la ruta hacia la solución ("necesidad de riego", "válvula abierta").
+3. **Close (Procesos clave y Límites):** En la fase convergente, se agruparon los eventos para definir las fronteras estructurales del sistema (notas rosas y verdes). Se identificó claramente el *core* de la arquitectura de software: los módulos de **Monitoreo**, el **Modelo de toma de decisiones** y la capa de actuación para el **Riego/Fertilización automática**. Además, esta vista expuso oportunidades periféricas, delimitando módulos de valor agregado como la **Seguridad perimetral**, la cual mitiga riesgos operativos pero queda fuera del núcleo estrictamente agronómico.
+
+Esta primera aproximación visual de alto nivel demuestra cómo la solución tecnológica de **AgroSafe** actuará como el motor lógico que vincula los factores variables de la naturaleza con la ejecución precisa y automatizada en el campo.
 
 ## 2.5. Ubiquitous Language
 
