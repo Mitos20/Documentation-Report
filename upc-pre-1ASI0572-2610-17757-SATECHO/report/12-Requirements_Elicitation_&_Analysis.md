@@ -326,15 +326,45 @@ Nota: Elaboración propia en UXPressia (2026)
 
 ### 2.3.4. Empathy Mapping
 
-Es aquí donde profundizaremos las dimensiones psicológicas de nuestros segmentos objetivos, explorando lo que sienten, piensan y escuchan ante la crisis de inseguridad y recursos, logrando una conexión que trasciende lo técnico, revelando las motivaciones y temores profundos que guían el propósito de SATECHO.
+En esta sección, el equipo detalla el proceso de elaboración y presenta los **Empathy Maps** (Mapas de Empatía) desarrollados mediante la herramienta UXPressia para cada uno de nuestros *User Personas*. 
+
+El proceso de elaboración consistió en un ejercicio de inmersión profunda. Colocamos a nuestro *User Persona* en el centro del lienzo virtual y, a partir de los hallazgos obtenidos en las entrevistas y el Needfinding, el equipo debatió y categorizó las observaciones para responder a las preguntas clave del marco de trabajo: ¿Con quién empatizamos?, ¿Qué necesita hacer?, ¿Qué ve, dice, hace y escucha?, y finalmente, ¿Qué piensa y siente? Este análisis nos permitió decantar la información en dos bloques críticos: los **Pains** (frustraciones y preocupaciones latentes) y los **Gains** (las soluciones y beneficios que lo convencerían de adoptar AgroSafe como la alternativa correcta).
 
 ### User Empathy Map: Agricultor Tradicional
 
+El primer Empathy Map explora la perspectiva de Danilo Subasto, representante de nuestro segmento de dueños de parcelas y agricultores tradicionales. El análisis revela a un usuario atrapado entre la impredecibilidad del clima actual y los métodos empíricos del pasado.
+
 ![User-Empathy-Map-Agricultor](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/needfinding/user-empathy-map-agricultor.jpeg)
+
+A continuación, se detalla la síntesis de sus cuadrantes:
+
+* **¿Con quién estamos empatizando? (Who):** Con agricultores de más de 48 años que administran sus propias hectáreas. Viven con la presión de la imprevisibilidad climática, toman decisiones de riego al cálculo y sufren estrés constante por el aumento de la inseguridad rural.
+* **¿Qué necesita hacer? (Need to DO):** Necesita optimizar sus recursos. Debe decidir el momento exacto para regar sin desperdiciar agua, aplicar fertilizantes sin salinizar la tierra, proteger sus equipos durante la noche y reducir el esfuerzo físico de sus rondas diarias.
+* **¿Qué ve? (SEE):** Un entorno adverso: costos de insumos agrícolas al alza, cultivos que se enferman a pesar de sus cuidados, un aumento en la inseguridad de su zona y tecnología de punta que percibe como exclusiva y compleja para las grandes agroexportadoras.
+* **¿Qué dice? (SAY):** Expresa frustración e impotencia. *"El clima ya no avisa como antes, ya no me puedo confiar solo en la experiencia"*, y manifiesta un deseo claro de control: *"Si tuviera algo en el celular que me avise si a la planta le falta agua... dormiría tranquilo"*.
+* **¿Qué hace? (DO):** Tiene una rutina desgastante. Camina largas distancias para tocar la tierra, abre válvulas de forma manual basándose en el instinto, realiza rondas nocturnas agotadoras y solo contacta a su agrónomo de forma reactiva (cuando el daño es visible).
+* **¿Qué escucha? (HEAR):** El ruido de su entorno aumenta su ansiedad: quejas de vecinos por plagas o estrés hídrico, rumores sobre robos y extorsiones en fundos cercanos, y recomendaciones técnicas de su agrónomo que le resultan difíciles de aplicar con exactitud.
+* **¿Qué piensa y siente? (THINK and FEEL):** Siente cansancio físico extremo y una ansiedad silenciosa por la incertidumbre de no saber si está nutriendo o ahogando a su planta, además de una gran preocupación por su seguridad personal.
+* **Pains (Esfuerzos/Dolores):** Le preocupan profundamente las pérdidas económicas (15-30% de la producción) por decisiones equivocadas, el agotamiento derivado de falsas alarmas de seguridad y la barrera de entrada a tecnologías complejas que requieren internet de alta velocidad.
+* **Gains (Resultados/Beneficios):** Lo que aliviaría sus problemas y lo convencería de usar AgroSafe es una herramienta *Plug & Play* desde WhatsApp, que le garantice reducir el consumo de insumos (20-30%) y le otorgue paz mental mediante un sistema de seguridad inteligente que diferencie animales de ladrones reales.
 
 ### User Empathy Map: Ingeniero Agrónomo
 
+El segundo Empathy Map explora la perspectiva de Nestor Campo, quien representa a nuestro segmento de ingenieros agrónomos y asesores técnicos independientes. El análisis nos revela a un profesional motivado por la innovación, pero cuyo crecimiento se ve estancado por las limitaciones físicas de su trabajo y la resistencia al cambio de sus clientes.
+
 ![User-Empathy-Map-Ingeniero-Agronomo](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/needfinding/user-empathy-map-ingeniero-agronomo.jpeg)
+
+A continuación, se detalla la síntesis de sus cuadrantes:
+
+* **¿Con quién estamos empatizando? (Who):** Con un ingeniero agrónomo de 29 años que trabaja como asesor independiente para múltiples agricultores. Enfrenta el límite físico de no poder estar en todas las parcelas a la vez y lidia constantemente con la dificultad de convencer a agricultores tradicionales de cambiar sus prácticas sin tener datos en tiempo real.
+* **¿Qué necesita hacer? (Need to DO):** Necesita escalar su negocio. Debe poder diagnosticar y monitorear múltiples parcelas de forma simultánea, auditar de forma remota si el agricultor realmente ejecutó el plan de riego indicado, y convencer a sus clientes de aplicar recomendaciones basadas en evidencia científica y no en "costumbres".
+* **¿Qué ve? (SEE):** Ve cultivos con daños irreversibles por estrés hídrico o salinidad porque lo llamaron "muy tarde". Observa a agricultores tomando decisiones empíricas que desperdician agua y lavan nutrientes. Además, ve tecnologías extranjeras tipo "caja negra" que arrojan números pero no explican cómo se midieron, lo que le genera desconfianza.
+* **¿Qué dice? (SAY):** Expresa la necesidad urgente de objetividad y eficiencia: *"No puedo estar físicamente en 15 parcelas al mismo tiempo, soy ingeniero, no transportista"*, *"Necesito datos duros y gráficos en pantalla para demostrarle al cliente que está ahogando su propia planta"*. 
+* **¿Qué hace? (DO):** Pasa gran parte de su día conduciendo horas en carretera, perdiendo tiempo valioso. Usa herramientas analógicas (calicatas manuales) para revisiones superficiales, envía decenas de mensajes de seguimiento por WhatsApp esperando honestidad, y centraliza su información transcribiendo notas a mano hacia un Excel al final del día.
+* **¿Qué escucha? (HEAR):** Escucha constantemente las excusas de los agricultores tradicionales (*"siempre lo he regado así"*), quejas de clientes cuando la cosecha sale mal (buscando culpar a la asesoría), y promesas vacías de otras startups AgTech cuyas soluciones resultan frágiles en el campo.
+* **¿Qué piensa y siente? (THINK and FEEL):** Siente una profunda frustración al diagnosticar "a ciegas" y desgaste por el trabajo operativo de desplazarse físicamente para resolver problemas que podrían verse en una pantalla. Al mismo tiempo, siente una gran motivación por innovar y ser reconocido como un asesor moderno orientado a datos.
+* **Pains (Esfuerzos/Dolores):** Le duele la pérdida de tiempo, energía y dinero en desplazamientos ineficientes. Le frustra la dependencia absoluta de la memoria y subjetividad del agricultor, la dificultad para generar historiales agronómicos por el registro manual, y el riesgo de daño a su prestigio profesional por una mala ejecución del cliente.
+* **Gains (Resultados/Beneficios):** Lo que resolvería sus problemas sería contar con un *Dashboard* centralizado para monitorear el suelo de todos sus clientes desde su laptop en tiempo real. Esto le permitiría respaldar científicamente sus decisiones con transparencia y aumentar directamente sus ingresos al poder manejar el doble de clientes de forma remota.
 
 ## 2.4. Big Picture EventStorming
 
