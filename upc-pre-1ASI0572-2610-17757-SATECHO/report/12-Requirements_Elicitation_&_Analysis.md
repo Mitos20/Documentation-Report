@@ -259,6 +259,10 @@ En esta sección, analizaremos las visiones directas de quienes enfrentan la cri
 
 ## 2.3. Needfinding
 
+En esta sección, el equipo presenta los artefactos derivados de un análisis profundo de la información recolectada durante la fase de investigación. El proceso de Needfinding nos permite trascender los datos superficiales para comprender las necesidades latentes, las motivaciones reales y los puntos de dolor críticos de nuestros usuarios. A través del análisis de las entrevistas y la observación directa, hemos sintetizado los hallazgos en herramientas estratégicas que guiarán el diseño de la solución Oryxen.
+
+A continuación, se detallan los perfiles de usuario (User Personas), la priorización de sus actividades (User Task Matrix), la exploración de sus experiencias actuales (As-Is Scenario Mapping) y la inmersión en su perspectiva emocional (Empathy Mapping). Estos artefactos aseguran que cada funcionalidad desarrollada responda directamente a un problema validado en el cuidado de las plantas dentro de entornos urbanos.
+
 ### 2.3.1. User Personas
 
 La convergencia entre los hallazgos obtenidos en las entrevistas de campo y las brechas detectadas en el mercado actual permite trascender las cifras para dar rostro a los verdaderos protagonistas del entorno rural. En este apartado, las preocupaciones por la seguridad y la búsqueda de eficiencia hídrica dejan de ser conceptos abstractos y se materializan en perfiles humanos que dictan el propósito de cada funcionalidad de AgroSafe.
