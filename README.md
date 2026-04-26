@@ -1,4 +1,6 @@
-<img src="src/images/UPC_logo.png" width="100px" height="auto"/>
+<p align="center">
+    <img src="upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/logos/UPC-logo.png" width="100px" height="auto"/>
+</p>
 
 # Universidad Peruana de Ciencias Aplicadas
 
