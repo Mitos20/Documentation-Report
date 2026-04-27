@@ -584,4 +584,45 @@ Este bounded context gestiona el despacho de alertas y notificaciones hacia los 
 ![Communication-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/communication/communication-database-design-diagram.png)
 
 ---
-  
+
+### 4.2.5. Bounded Context: IoT Device Management
+
+Este bounded context gestiona el ciclo de vida completo de los dispositivos IoT físicos desplegados en campo. Según tu Event Storming, los agregados principales son **IoT Device** y el mecanismo de detección offline por heartbeat: si no se recibe un heartbeat en un rango de 5 minutos, el equipo es detectado como offline.
+
+#### Diccionario de Clases
+
+![IoT-Device-Management-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/iot-device-management/dictionary-iot-device-management-1.png)
+
+![IoT-Device-Management-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/iot-device-management/dictionary-iot-device-management-2.png)
+
+### 4.2.5.1. Domain Layer
+
+![IoT-Device-Management-Domain-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/iot-device-management/iot-device-management-domain-layer.png)
+
+### 4.2.5.2. Interface Layer
+
+![IoT-Device-Management-Interface-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/iot-device-management/iot-device-management-interface-layer.png)
+
+### 4.2.5.3. Application Layer
+
+![IoT-Device-Management-Application-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/iot-device-management/iot-device-management-application-layer.png)
+
+### 4.2.5.4. Infrastructure Layer
+
+![IoT-Device-Management-Infrastructure-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/iot-device-management/iot-device-management-infrastructure-layer.png)
+
+### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+![IoT-Device-Management-Component-Level-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/iot-device-management/iot-device-management-component.png)
+
+### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+
+![IoT-Device-Management-Domain-Class-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/iot-device-management/iot-device-management-domain-layer-class-diagram.png)
+
+### 4.2.5.6.2 Bounded Context Database Design Diagram  
+
+![IoT-Device-Management-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/iot-device-management/iot-device-management-database-design-diagram.png)
+
+---
