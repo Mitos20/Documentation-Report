@@ -672,3 +672,44 @@ Este bounded context gestiona la experiencia del visitante desde que llega a la 
 ![Soil-Monitoring-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/soil-monitoring-diagnosis-database-design-diagram.png)
 
 ---
+
+### 4.2.7. Bounded Context: Irrigation & Actuator Control
+
+Este bounded context gestiona el control físico de las electroválvulas de riego. Según tu Event Storming, los agregados principales son **Valve State**, **Irrigation Command** y **Offline Command Queue**, con tres flujos claramente diferenciados: **Flujo online**, **Flujo offline** y **Flujo conflictivo**.
+#### Diccionario de Clases
+
+![Soil-Monitoring-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/dictionary-irrigation-acuator-control-1.png)
+
+![Soil-Monitoring-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/dictionary-irrigation-acuator-control-2.png)
+
+### 4.2.7.1. Domain Layer
+
+![Irrigation-Actuator-Control-Domain-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/irrigation-acuator-control-domain-layer.png)
+
+### 4.2.7.2. Interface Layer
+
+![Irrigation-Actuator-Control-Interface-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/irrigation-acuator-control-interface-layer.png)
+
+### 4.2.7.3. Application Layer
+
+![Irrigation-Actuator-Control-Application-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/irrigation-acuator-control-application-layer.png)
+
+### 4.2.7.4. Infrastructure Layer
+
+![Irrigation-Actuator-Control-Infrastructure-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/irrigation-acuator-control-infrastructure-layer.png)
+
+### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Irrigation-Actuator-Control-Component-Level-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/irrigation-acuator-control-component.png)
+
+### 4.2.7.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.7.6.1 Bounded Context Domain Layer Class Diagrams
+
+![Irrigation-Actuator-Control-Domain-Class-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/irrigation-acuator-control-domain-layer-class-diagram.png)
+
+### 4.2.7.6.2 Bounded Context Database Design Diagram  
+
+![Irrigation-Actuator-Control-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/irrigation-acuator-control-database-design-diagram.png)
+
+---
