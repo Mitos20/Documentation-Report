@@ -756,3 +756,45 @@ Este bounded context gestiona la detección y clasificación de eventos perimetr
 ![Perimeter-Security-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/perimeter-security/perimeter-security-database-design-diagram.png)
 
 ---
+
+### 4.2.9. Bounded Context: Business Intelligence
+
+Este bounded context provee analítica estratégica para el Product Owner y el Project Manager. Según tu Event Storming, los agregados principales son **Business Metrics**, **Churn Record** y **Feature Usage Metrics**, con el pain point crítico de que los datos de churn deben cruzar información de Subscriptions con datos de uso.
+
+#### Diccionario de Clases
+
+![Business-Intelligence-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/business-intelligence/dictionary-business-intelligence-1.png)
+
+![Business-Intelligence-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/business-intelligence/dictionary-business-intelligence-2.png)
+
+### 4.2.9.1. Domain Layer
+
+![Business-Intelligence-Domain-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/business-intelligence/business-intelligence-domain-layer.png)
+
+### 4.2.9.2. Interface Layer
+
+![Business-Intelligence-Interface-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/business-intelligence/business-intelligence-interface-layer.png)
+
+### 4.2.9.3. Application Layer
+
+![Business-Intelligence-Application-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/business-intelligence/business-intelligence-application-layer.png)
+
+### 4.2.9.4. Infrastructure Layer
+
+![Business-Intelligence-Infrastructure-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/business-intelligence/business-intelligence-infrastructure-layer.png)
+
+### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Business-Intelligence-Component-Level-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/business-intelligence/business-intelligence-component.png)
+
+### 4.2.9.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.9.6.1 Bounded Context Domain Layer Class Diagrams
+
+![Business-Intelligence-Domain-Class-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/business-intelligence/business-intelligence-domain-layer-class-diagram.png)
+
+### 4.2.9.6.2 Bounded Context Database Design Diagram
+
+![Business-Intelligence-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/business-intelligence/business-intelligence-database-design-diagram.png)
+
+---
