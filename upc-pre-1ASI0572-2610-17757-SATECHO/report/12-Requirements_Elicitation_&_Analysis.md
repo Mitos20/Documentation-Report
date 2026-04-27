@@ -415,27 +415,33 @@ El diagrama general expone el *landscape* completo del negocio a través de las 
 
 Esta primera aproximación visual de alto nivel demuestra cómo la solución tecnológica de **AgroSafe** actuará como el motor lógico que vincula los factores variables de la naturaleza con la ejecución precisa y automatizada en el campo.
 
-## 2.5. Ubiquitous Language
+## 2.3.5. Ubiquitous Language
 
-| **Término**                                                | **Definición**                                                                                                                                                 |
-| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Optimal condition (Estado Óptimo)**                      | Condición ideal donde el cultivo recibe la cantidad exacta de recursos para su salud máxima, minimizando el desperdicio de agua y energía.                     |
-| **Hectares (Hectáreas)**                                   | Superficie de control donde se despliega una red específica de nodos sensores para garantizar una cobertura de datos uniforme.                                 |
-| **Water Stress (Estrés Hídrico)**                          | Estado fisiológico crítico en el que la planta no tiene suficiente agua disponible, lo que activa automáticamente protocolos de riego de emergencia.           |
-| **Soil Washing (Lavado de Suelo)**                         | Procedimiento de riego programado para desplazar el exceso de sales acumuladas en la zona de las raíces hacia capas más profundas.                             |
-| **Electrical Conductivity (Conductividad Eléctrica - EC)** | Medida técnica que indica la concentración de sales en la tierra; esencial para determinar si la planta puede absorber nutrientes correctamente.               |
-| **Hydrogen Potential (Potencial de Hidrógeno - pH)**       | Indicador de acidez o alcalinidad del terreno que determina la disponibilidad química de los nutrientes para el cultivo.                                       |
-| **Sensor Node (Dispositivo de Campo)**                     | Unidad física autónoma equipada con sensores que recolecta variables del entorno (humedad, UV, viento) y las transmite al sistema.                             |
-| **Actuator (Actuador)**                                    | Componente mecánico que ejecuta una acción física, como abrir el paso de agua, tras recibir una orden del sistema.                                             |
-| **Edge Gateway**                                           | Dispositivo que actúa como puente y procesador de datos en el campo; permite que el sistema tome decisiones rápidas incluso sin conexión a internet constante. |
-| **Threshold (Umbral)**                                     | Valor configurado que, al ser sobrepasado, dispara una alerta o una respuesta automática del sistema.                                                          |
-| **Intrusion Detection (Detección de Intrusos)**            | Evento generado por sensores de movimiento que identifica presencias no autorizadas, activando alertas de seguridad inmediatas.                                |
-| **Telemetry (Telemetría)**                                 | Proceso de envío inalámbrico de los datos captados por los sensores en el campo hacia la nube para su visualización en la App o Web.                           |
-| **Dashboard (Panel de Control)**                           | Interfaz visual centralizada donde el usuario monitorea gráficos, alertas y el estado real de sus hectáreas desde cualquier dispositivo.                       |
-| **Water Consumption (Consumo hídrico)**                    | Registro detallado del volumen de agua utilizado en cada ciclo, permitiendo al agricultor cuantificar el ahorro logrado con SATECHO.                           |
-| **Critical Alert (Alerta Crítica)**                        | Aviso de alta prioridad enviado al celular del usuario ante riesgos inminentes como intrusiones o fallas críticas en el riego.                                 |
-| **Environmental Variables (Variables Ambientales)**        | Conjunto de datos externos que influyen en la velocidad con la que el suelo pierde agua.                                                                       |
-| **Evidence of Operation (Evidencia de Operación)**         | Historial inmutable de todas las acciones realizadas, útil para auditorías agrícolas y de seguridad.                                                           |
-| **Plug & Play (Instalación Simplificada)**                 | Atributo de nuestros dispositivos que permite al agricultor instalarlos y activarlos sin necesidad de conocimientos técnicos avanzados.                        |
-| **Asset Management (Gestión Patrimonial)**                 | Enfoque del negocio que combina el cuidado biológico del cultivo con la protección física ante robos o extorsiones.                                            |
-| **Intermittent Connectivity (Conectividad Intermitente)**  | Capacidad del sistema para seguir operando y guardando datos localmente cuando la señal de red en la zona rural es inestable.                                  |
+En esta sección se define el **Ubiquitous Language** (Lenguaje Ubicuo) del proyecto AgroSafe (SATECHO). Tal como lo establece Eric Evans en su libro *Domain-Driven Design: Tackling Complexity in the Heart of Software*, la construcción y el mantenimiento de un glosario unificado es un pilar fundamental para evitar ambigüedades conceptuales y asegurar una comunicación exacta entre todos los miembros del equipo y los *stakeholders*.
+
+Este glosario consolida exclusivamente los conceptos críticos del *business domain* (el dominio del negocio agropecuario, la gestión de cultivos y el riego), omitiendo intencionalmente la jerga técnica de ingeniería de software. 
+
+A continuación, se detalla el glosario de términos de dominio:
+
+| Término (Inglés / Español) | Definición |
+| :--- | :--- |
+| **Soil Moisture** (Humedad del suelo) | Nivel o porcentaje de agua volumétrica retenida en la tierra, indicador primario para determinar la necesidad hídrica del cultivo. |
+| **Field Capacity** (Capacidad de campo) | La cantidad máxima de agua que un tipo de suelo específico puede retener después de que el exceso ha drenado; representa el estado óptimo de humedad. |
+| **Wilting Point** (Punto de marchitez) | Nivel mínimo de humedad en el suelo en el cual la planta ya no puede extraer agua, sufriendo daños irreversibles. |
+| **Optimal Condition** (Estado óptimo) | Condición ideal donde el cultivo recibe la cantidad exacta de recursos para su salud máxima, minimizando el desperdicio de agua y energía. |
+| **Water Stress** (Estrés hídrico) | Estado fisiológico crítico en el que la planta no tiene suficiente agua disponible, lo que requiere protocolos de riego inmediatos. |
+| **Crop Stress** (Estrés del cultivo) | Estado fisiológico negativo de la planta causado por factores externos adversos, tales como déficit hídrico, asfixia radicular o toxicidad por sales. |
+| **Electrical Conductivity - EC** (Conductividad Eléctrica - CE) | Medida técnica que indica la concentración de sales en la tierra; es esencial para determinar si la planta puede absorber nutrientes correctamente o si sufre un bloqueo salino. |
+| **Hydrogen Potential - pH** (Potencial de Hidrógeno) | Indicador de acidez o alcalinidad del terreno que determina la disponibilidad química de los nutrientes para el cultivo. |
+| **Soil Washing** (Lavado de suelo) | Procedimiento de riego programado (solo con agua) para desplazar el exceso de sales acumuladas en la zona de las raíces hacia capas más profundas. |
+| **Environmental Variables** (Variables ambientales) | Conjunto de datos externos e incontrolables (temperatura, radiación UV, viento) que influyen en la velocidad con la que el suelo pierde agua. |
+| **Phenological Stage** (Estado fenológico) | Fase de desarrollo biológico actual de la planta (ej. floración, fructificación), la cual dicta los umbrales específicos de tolerancia y requerimientos de agua. |
+| **Irrigation** (Riego) | Aplicación controlada de agua al suelo a través de sistemas de cañerías y válvulas para suplir la necesidad hídrica del fundo. |
+| **Fertigation** (Fertirrigación) | Técnica agrícola que optimiza recursos al aplicar simultáneamente el agua y los nutrientes (fertilizantes) disueltos a través del sistema de riego. |
+| **Water Consumption** (Consumo hídrico) | Registro detallado del volumen de agua utilizado en cada ciclo, permitiendo al agricultor cuantificar el ahorro logrado en su producción. |
+| **Threshold** (Umbral) | Valor límite configurado (ej. humedad al 20%) que, al ser sobrepasado, dispara una decisión agronómica o alerta en el sistema. |
+| **Perimeter Intrusion** (Intrusión perimetral) | Ingreso no autorizado de elementos externos a los linderos del fundo, representando un riesgo para los equipos de riego o la cosecha. |
+| **Critical Alert** (Alerta crítica) | Aviso de alta prioridad enviado al agricultor o agrónomo ante riesgos inminentes en el campo, como intrusiones físicas o niveles fatales de estrés en la planta. |
+| **Asset Management** (Gestión patrimonial) | Enfoque integral del negocio que combina el cuidado biológico del cultivo con la protección física de las tierras y equipos ante robos. |
+| **Evidence of Operation** (Evidencia de operación) | Historial inmutable de todas las acciones y mediciones agronómicas realizadas, útil para justificar decisiones ante los consultores técnicos. |
+| **Hectares** (Hectáreas) | Unidad de medida de superficie agrícola sobre la cual se divide y planifica el control, monitoreo y riego del fundo. |
