@@ -413,3 +413,29 @@ Tras evaluar las alternativas, el equipo concluyó que la mejor aproximación es
     ![Context-Mapping-5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/admin-biling-&-operations.png)
 
     ![Context-Mapping-5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/iot-device-management.png)
+   
+### 4.1.3. Software Architecture 
+
+### 4.1.3.1. Software Architecture System Landscape Diagram 
+
+Visión panorámica completa del ecosistema SATECHO: los tres actores (agricultor, agrónomo, staff), los nueve contenedores internos de la plataforma y los cuatro sistemas externos integrados (Stripe, Twilio, FCM, SendGrid). Muestra quién usa el sistema, qué lo compone y con qué servicios de terceros se comunica.
+
+![Landscape-Diagram](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/software-architecture/landscape-diagram.png)
+
+### 4.1.3.2. Software Architecture Context Level Diagrams
+
+SATECHO AgroSafe como caja negra dentro de su entorno operativo. Representa cómo el agricultor monitorea su cultivo, cómo el agrónomo configura umbrales y genera reportes, y cómo el staff gestiona cuentas. Enfatiza las integraciones con sistemas externos sin detalles de implementación interna.
+
+![Context-Diagram](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/software-architecture/context-diagram.png)
+
+### 4.1.3.2. Software Architecture Container Level Diagrams 
+
+Desglosa los nueve contenedores internos: Landing Page, Web App Vue.js, Mobile App Capacitor, Backend API Node.js, Servicio de Análisis Python, Firestore, Firebase Auth, ESP32 y Electroválvula. Diagrama técnico de referencia que muestra la arquitectura interna y las dependencias entre componentes.
+
+![Container-Diagram](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/software-architecture/container-diagram.png)
+
+### 4.1.3.3. Software Architecture Deployment Diagrams
+
+Distribución de la solución sobre infraestructura real: nodos ESP32 alimentados por panel solar en campo, Google Cloud Platform (Cloud Run + Firebase), Firebase Hosting con CDN global, y servicios externos integrados mediante APIs REST. Referencia para planificación de despliegue y resiliencia ante conectividad rural intermitente.
+
+![Deplument-Diagram](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/software-architecture/deployment-diagram.png)
