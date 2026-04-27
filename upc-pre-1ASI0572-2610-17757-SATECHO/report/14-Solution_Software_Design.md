@@ -798,3 +798,43 @@ Este bounded context provee analítica estratégica para el Product Owner y el P
 ![Business-Intelligence-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/business-intelligence/business-intelligence-database-design-diagram.png)
 
 ---
+
+### 4.2.10. Bounded Context: Agronomist Advisory
+
+Este bounded context gestiona las capacidades profesionales del ingeniero agrónomo. Según tu Event Storming, los agregados principales son **Agronomist Advisory** con sus flujos de **Monitoreo remoto**, **Reporte** y **Vinculación**, complementados por el aggregate **Technical Report** y la integración con el **PDF generator** como sistema externo.
+
+#### Diccionario de Clases
+
+![Agronomist-Advisory-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/agronomist-advisory/dictionary-agronomist-advisory-1.png)
+
+![Agronomist-Advisory-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/agronomist-advisory/dictionary-agronomist-advisory-2.png)
+
+### 4.2.10.1. Domain Layer
+
+![Agronomist-Advisory-Domain-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/agronomist-advisory/agronomist-advisory-domain-layer.png)
+
+### 4.2.10.2. Interface Layer
+
+![Agronomist-Advisory-Interface-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/agronomist-advisory/agronomist-advisory-interface-layer.png)
+
+### 4.2.10.3. Application Layer
+
+![Agronomist-Advisory-Application-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/agronomist-advisory/agronomist-advisory-application-layer.png)
+
+### 4.2.10.4. Infrastructure Layer
+
+![Agronomist-Advisory-Infrastructure-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/agronomist-advisory/agronomist-advisory-infrastructure-layer.png)
+
+### 4.2.10.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Agronomist-Advisory-Component-Level-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/agronomist-advisory/agronomist-advisory-component.png)
+
+### 4.2.10.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.10.6.1 Bounded Context Domain Layer Class Diagrams
+
+![Agronomist-Advisory-Domain-Class-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/agronomist-advisory/agronomist-advisory-domain-layer-class-diagram.png)
+
+### 4.2.10.6.2 Bounded Context Database Design Diagram
+
+![Agronomist-Advisory-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/agronomist-advisory/agronomist-advisory-database-design-diagram.jpeg)
