@@ -500,3 +500,46 @@ Gestiona el registro de usuarios (agricultores y agrónomos), autenticación, ve
 ![Identity-Access-Management-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/identity-access-management/identity-access-management-database-design-diagram.png)
 
 ---
+
+### 4.2.3. Bounded Context: Subscriptions & Payments
+
+Gestiona los planes de suscripción, el procesamiento de pagos a través de un proveedor externo y los flujos de suspensión, reactivación y cancelación de cuentas por mora.
+
+#### Diccionario de Clases
+
+![Subscriptions-Payments-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/subscriptions-payments/dictionary-subscriptions-payments-1.png)
+
+![Subscriptions-Payments-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/subscriptions-payments/dictionary-subscriptions-payments-2.png)
+
+### 4.2.3.1. Domain Layer
+
+![Subscriptions-Payments-Domain-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/subscriptions-payments/subscriptions-payments-domain-layer.png)
+
+### 4.2.3.2. Interface Layer
+
+![Subscriptions-Payments-Interface-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/subscriptions-payments/subscriptions-payments-interface-layer.png)
+
+### 4.2.3.3. Application Layer
+
+![Subscriptions-Payments-Application-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/subscriptions-payments/subscriptions-payments-application-layer.png)
+
+### 4.2.3.4. Infrastructure Layer
+
+![Subscriptions-Payments-Infrastructure-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/subscriptions-payments/subscriptions-payments-infrastructure-layer.png)
+
+### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Subscriptions-Payments-Component-Level-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/subscriptions-payments/subscriptions-payments-component.png)
+
+### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+
+![Subscriptions-Payments-Domain-Class-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/subscriptions-payments/subscriptions-payments-domain-layer-class-diagram.png)
+
+### 4.2.3.6.2 Bounded Context Database Design Diagram
+
+![Subscriptions-Payments-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/subscriptions-payments/subscriptions-payments-database-design-diagram.png)
+
+---
+  
