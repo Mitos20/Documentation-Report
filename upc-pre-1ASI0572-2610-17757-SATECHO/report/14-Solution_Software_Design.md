@@ -676,6 +676,7 @@ Este bounded context gestiona la experiencia del visitante desde que llega a la 
 ### 4.2.7. Bounded Context: Irrigation & Actuator Control
 
 Este bounded context gestiona el control físico de las electroválvulas de riego. Según tu Event Storming, los agregados principales son **Valve State**, **Irrigation Command** y **Offline Command Queue**, con tres flujos claramente diferenciados: **Flujo online**, **Flujo offline** y **Flujo conflictivo**.
+
 #### Diccionario de Clases
 
 ![Soil-Monitoring-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/dictionary-irrigation-acuator-control-1.png)
@@ -711,5 +712,47 @@ Este bounded context gestiona el control físico de las electroválvulas de rieg
 ### 4.2.7.6.2 Bounded Context Database Design Diagram  
 
 ![Irrigation-Actuator-Control-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/irrigation-acuator-control/irrigation-acuator-control-database-design-diagram.png)
+
+---
+
+### 4.2.8. Bounded Context: Perimeter Security
+
+Este bounded context gestiona la detección y clasificación de eventos perimetrales mediante el sensor PIR térmico del ESP32. Según tu Event Storming, los agregados principales son **PIR Event** y **Security Alert**, con tres flujos de clasificación claramente diferenciados: **Flujo humano**, **Flujo animal/viento** y la integración con el **Edge** para el procesamiento local de clasificación.
+
+#### Diccionario de Clases
+
+![Perimeter-Security-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/perimeter-security/dictionary-perimeter-security-1.png)
+
+![Perimeter-Security-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/perimeter-security/dictionary-perimeter-security-2.png)
+
+### 4.2.8.1. Domain Layer
+
+![Perimeter-Security-Domain-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/perimeter-security/perimeter-security-domain-layer.png)
+
+### 4.2.8.2. Interface Layer
+
+![Perimeter-Security-Interface-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/perimeter-security/perimeter-security-interface-layer.png)
+
+### 4.2.8.3. Application Layer
+
+![Perimeter-Security-Application-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/perimeter-security/perimeter-security-application-layer.png)
+
+### 4.2.8.4. Infrastructure Layer
+
+![Perimeter-Security-Infrastructure-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/perimeter-security/perimeter-security-infrastructure-layer.png)
+
+### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Perimeter-Security-Component-Level-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/perimeter-security/perimeter-security-component.png)
+
+### 4.2.8.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.8.6.1 Bounded Context Domain Layer Class Diagrams
+
+![Perimeter-Security-Domain-Class-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/perimeter-security/perimeter-security-domain-layer-class-diagram.png)
+
+### 4.2.8.6.2 Bounded Context Database Design Diagram
+
+![Perimeter-Security-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/perimeter-security/perimeter-security-database-design-diagram.png)
 
 ---
