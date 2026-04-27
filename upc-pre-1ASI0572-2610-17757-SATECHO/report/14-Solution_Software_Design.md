@@ -542,4 +542,46 @@ Gestiona los planes de suscripción, el procesamiento de pagos a través de un p
 ![Subscriptions-Payments-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/subscriptions-payments/subscriptions-payments-database-design-diagram.png)
 
 ---
+
+### 4.2.4. Bounded Context: Communication
+
+Este bounded context gestiona el despacho de alertas y notificaciones hacia los usuarios finales. Según tu Event Storming, los componentes clave son **Notification Dispatch**, **Enviar Alerta** y la integración con **Twilio** como sistema externo.
+
+#### Diccionario de Clases
+
+![Communication-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/communication/dictionary-communication-1.png)
+
+![Communication-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/communication/dictionary-communication-2.png)
+
+### 4.2.4.1. Domain Layer
+
+![Communication-Domain-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/communication/communication-domain-layer.png)
+
+### 4.2.4.2. Interface Layer
+
+![Communication-Interface-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/communication/communication-interface-layer.png)
+
+### 4.2.4.3. Application Layer
+
+![Communication-Application-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/communication/communication-application-layer.png)
+
+### 4.2.4.4. Infrastructure Layer
+
+![Communication-Infrastructure-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/communication/communication-infrastructure-layer.png)
+
+### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Communication-Component-Level-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/communication/communication-component.png)
+
+### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+
+![Communication-Domain-Class-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/communication/communication-domain-layer-class-diagram.png)
+
+### 4.2.4.6.2 Bounded Context Database Design Diagram  
+
+![Communication-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/communication/communication-database-design-diagram.png)
+
+---
   
