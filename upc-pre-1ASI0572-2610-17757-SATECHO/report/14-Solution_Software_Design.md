@@ -626,3 +626,49 @@ Este bounded context gestiona el ciclo de vida completo de los dispositivos IoT 
 ![IoT-Device-Management-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/iot-device-management/iot-device-management-database-design-diagram.png)
 
 ---
+
+### 4.2.6. Bounded Context: Soil Monitoring & Diagnosis
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Soil-Monitoring-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/dictionary-soil-monitoring-diagnosis-1.png)
+
+![Soil-Monitoring-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/dictionary-soil-monitoring-diagnosis-2.png)
+
+![Soil-Monitoring-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/dictionary-soil-monitoring-diagnosis-3.png)
+
+![Soil-Monitoring-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/dictionary-soil-monitoring-diagnosis-4.png)
+
+### 4.2.6.1. Domain Layer
+
+![Soil-Monitoring-Domain-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/soil-monitoring-diagnosis-domain-layer.png)
+
+### 4.2.6.2. Interface Layer
+
+![Soil-Monitoring-Interface-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/soil-monitoring-diagnosis-interface-layer.png)
+
+### 4.2.6.3. Application Layer
+
+![Soil-Monitoring-Application-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/soil-monitoring-diagnosis-application-layer.png)
+
+### 4.2.6.4. Infrastructure Layer
+
+![Soil-Monitoring-Infrastructure-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/soil-monitoring-diagnosis-infrastructure-layer.png)
+
+### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Soil-Monitoring-Component-Level-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/soil-monitoring-diagnosis-component.png)
+
+### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.6.6.1 Bounded Context Domain Layer Class Diagrams
+
+![Soil-Monitoring-Domain-Class-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/soil-monitoring-diagnosis-domain-layer-class-diagram.png)
+
+### 4.2.5.6.2 Bounded Context Database Design Diagram
+
+![Soil-Monitoring-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/soil-monitoring-diagnosis/soil-monitoring-diagnosis-database-design-diagram.png)
+
+---
