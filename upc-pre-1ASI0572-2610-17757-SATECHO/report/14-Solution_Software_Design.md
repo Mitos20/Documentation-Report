@@ -413,3 +413,299 @@ Tras evaluar las alternativas, el equipo concluyó que la mejor aproximación es
     ![Context-Mapping-5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/admin-biling-&-operations.png)
 
     ![Context-Mapping-5](/upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/context-mapping/iot-device-management.png)
+
+
+
+## 4.2. Strategic-Level Domain-Driven Design
+
+### 4.2.1. Bounded Context: Onboarding
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-1.png)
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-2.png)
+
+### 4.2.1.1. Domain Layer
+
+![Onboarding-Domain-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/onboarding-domain-layer.png)
+
+### 4.2.1.2. Interface Layer
+
+![Onboarding-Interface-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/onboarding-interface-layer.png)
+
+### 4.2.1.3. Application Layer
+
+![Onboarding-Application-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/onboarding-application-layer.png)
+
+### 4.2.1.4. Infrastructure Layer
+
+![Onboarding-Infrastructure-Layer](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/onboarding-infrastructure-layer.png)
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Onboarding-Component-Level-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/onboarding-component.png)
+
+### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
+
+![Onboarding-Domain-Class-Diagram](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/onboarding-domain-layer-class-diagram.png)
+
+### 4.2.1.6.2 Bounded Context Database Design Diagram
+
+![Onboarding-Database-Design](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/onboarding-database-design-diagram.png)
+
+---
+
+### 4.2.2. Bounded Context: 
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-1.png)
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-2.png)
+
+### 4.2.2.1. Domain Layer
+
+### 4.2.2.2. Interface Layer
+
+### 4.2.2.3. Application Layer
+
+### 4.2.2.4. Infrastructure Layer
+
+### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+
+### 4.2.2.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.2.3. Bounded Context:
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-1.png)
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-2.png)
+
+### 4.2.3.1. Domain Layer
+
+### 4.2.3.2. Interface Layer
+
+### 4.2.3.3. Application Layer
+
+### 4.2.3.4. Infrastructure Layer
+
+### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+
+### 4.2.3.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.2.4. Bounded Context:
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-1.png)
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-2.png)
+
+### 4.2.4.1. Domain Layer
+
+### 4.2.4.2. Interface Layer
+
+### 4.2.4.3. Application Layer
+
+### 4.2.4.4. Infrastructure Layer
+
+### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+
+### 4.2.4.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.2.5. Bounded Context:
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-1.png)
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-2.png)
+
+### 4.2.5.1. Domain Layer
+
+### 4.2.5.2. Interface Layer
+
+### 4.2.5.3. Application Layer
+
+### 4.2.5.4. Infrastructure Layer
+
+### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+
+### 4.2.5.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.2.6. Bounded Context:
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-1.png)
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-2.png)
+
+### 4.2.6.1. Domain Layer
+
+### 4.2.6.2. Interface Layer
+
+### 4.2.6.3. Application Layer
+
+### 4.2.6.4. Infrastructure Layer
+
+### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.6.6.1 Bounded Context Domain Layer Class Diagrams
+
+### 4.2.5.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.2.7. Bounded Context:
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-1.png)
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-2.png)
+
+### 4.2.7.1. Domain Layer
+
+### 4.2.7.2. Interface Layer
+
+### 4.2.7.3. Application Layer
+
+### 4.2.7.4. Infrastructure Layer
+
+### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.7.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.7.6.1 Bounded Context Domain Layer Class Diagrams
+
+### 4.2.7.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.2.8. Bounded Context:
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-1.png)
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-2.png)
+
+### 4.2.8.1. Domain Layer
+
+### 4.2.8.2. Interface Layer
+
+### 4.2.8.3. Application Layer
+
+### 4.2.8.4. Infrastructure Layer
+
+### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.8.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.8.6.1 Bounded Context Domain Layer Class Diagrams
+
+### 4.2.8.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.2.9. Bounded Context:
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-1.png)
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-2.png)
+
+### 4.2.9.1. Domain Layer
+
+### 4.2.9.2. Interface Layer
+
+### 4.2.9.3. Application Layer
+
+### 4.2.9.4. Infrastructure Layer
+
+### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.9.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.9.6.1 Bounded Context Domain Layer Class Diagrams
+
+### 4.2.9.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.2.10. Bounded Context:
+
+Este bounded context gestiona la experiencia del visitante desde que llega a la landing page hasta que completa el wizard de inicio y accede al dashboard. Su responsabilidad es guiar al usuario por el proceso de selección de plan, registro y configuración inicial, garantizando que si el wizard es abandonado a mitad pueda retomarse desde donde se dejó.
+
+#### Diccionario de Clases
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-1.png)
+
+![Onboarding-Dictionary](upc-pre-1ASI0572-2610-17757-SATECHO/report/assets/images/bounded-context/onboarding/dictionary-onboarding-2.png)
+
+### 4.2.10.1. Domain Layer
+
+### 4.2.10.2. Interface Layer
+
+### 4.2.10.3. Application Layer
+
+### 4.2.10.4. Infrastructure Layer
+
+### 4.2.10.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.10.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.10.6.1 Bounded Context Domain Layer Class Diagrams
+
+### 4.2.10.6.2 Bounded Context Database Design Diagram
